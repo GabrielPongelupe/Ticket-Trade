@@ -1,20 +1,20 @@
-# Nome do projeto
+# TicketTrade
 
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+O projeto TicketTrade é um software desenvolvido para a disciplina “Trabalho Interdisciplinar: Aplicações  para processos de negócios”, referente ao 2º período do curso de Engenharia de Software da Pontifícia Universidade Católica de Minas Gerais. O objetivo do nosso projeto é criar um software que facilite a compra e revenda de ingressos para eventos de entretenimento. 
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* João Victor Salim Ribeiro Guimarães Trad
+* Gabriel Faria de Oliveira
+* Gabriel Pongelupe de Carvalho
+* Renato Cazzoletti
+* João Vitor Neri Moreira
 
-## Professor
+## Professores
 
-* Nome completo do professor 1
-* Nome completo do professor 2
-* Nome completo do professor 3
+* Hugo Bastos de Paula 
+* Juliana Amaral Baroni de Carvalho 
+* Eveline Alonso Veloso 
 
 ## Instruções de utilização
 
