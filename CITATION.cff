@@ -41,10 +41,8 @@ keywords:
 message: |
     "If you use this software, please cite it using these metadata.
     Se você utilizar este software, por favor cite-o utilizando estes metadados."
-repository-code: "https://github.com/url do projeto"
-title: "Título do projeto"
-abstract: |
-    "
-    Breve descrição do projeto
-    "
-...
+repository-code: "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade"
+title: "TicketTrade"
+abstract: | 
+O projeto TicketTrade se baseia no desenvolvimento de um software funcional com o objetivo de facilitar a compra e revenda de ingressos para eventos de entretenimento.
+
