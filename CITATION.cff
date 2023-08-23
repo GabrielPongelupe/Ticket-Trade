@@ -1,16 +1,16 @@
 # YAML 1.2
 ---
 authors: 
-  - family-names: sobrenome do aluno 1
-    given-names: Nome do aluno 1 
-  - family-names: sobrenome do aluno 2
-    given-names: Nome do aluno 2 
-  - family-names: sobrenome do aluno 3
-    given-names: Nome do aluno 3 
-  - family-names: sobrenome do aluno 4
-    given-names: Nome do aluno 4 
-  - family-names: sobrenome do aluno 5
-    given-names: Nome do aluno 5 
+  - family-names: Salim 
+    given-names: Joao Victor 
+  - family-names: Pongelupe
+    given-names: Gabriel
+  - family-names: Faria
+    given-names: Gabriel
+  - family-names: Neri
+    given-names: Joao Vitor
+  - family-names: Cazzoletti
+    given-names: Renato
     
   - name-suffix: Professor
     affiliation: PUC Minas
