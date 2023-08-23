@@ -17,11 +17,11 @@
 
 Professores:
 
-** Hugo Bastos de Paula **
+**Hugo Bastos de Paula**
 
-** Juliana Amaral Baroni de Carvalho **
+**Juliana Amaral Baroni de Carvalho**
 
-** Eveline Alonso Veloso  **
+**Eveline Alonso Veloso **
 
 ---
 
