@@ -21,7 +21,7 @@ Professores:
 
 **Juliana Amaral Baroni de Carvalho**
 
-**Eveline Alonso Veloso **
+**Eveline Alonso Veloso**
 
 ---
 
