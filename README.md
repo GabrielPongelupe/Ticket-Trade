@@ -1,3 +1,5 @@
+![image](docs/images/Screenshot_6.png)
+
 # TicketTrade
 
 O projeto TicketTrade é um software desenvolvido para a disciplina “Trabalho Interdisciplinar: Aplicações  para processos de negócios”, referente ao 2º período do curso de Engenharia de Software da Pontifícia Universidade Católica de Minas Gerais. O objetivo do nosso projeto é criar um software que facilite a compra e revenda de ingressos para eventos de entretenimento. 
