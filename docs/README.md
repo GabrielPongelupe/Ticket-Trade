@@ -1,4 +1,5 @@
-![image](docs/images/Screenshot_6.png)
+![Screenshot_6](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade/assets/130709840/03f29383-1e21-464e-ac5e-7e64507a97b5)
+
 
 # TicketTrade
 
