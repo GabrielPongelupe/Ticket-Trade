@@ -85,6 +85,7 @@ O software busca introduzir no mercado uma plataforma que irá revolucionar o pr
 4. Todos os usuários terão a possibilidade de filtrar o tipo de evento que interessam e poderão também buscar pelo nome do evento.
 5. Os usuários serão avaliados com um sistema de rating  e denúncia, que servirá para auxiliar na confiabilidade das compras.
 6. O software servirá como um intermediador no processo de compra.
+
 Espera-se que com a introdução de nossa plataforma o processo de revenda de ingressos se torne mais veloz e simples de forma que ao facilitar a vida dos usuários, ganhe relevância no mercado de ingressos.    
 
 ### 3.3. Modelagem dos processos
