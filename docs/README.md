@@ -74,11 +74,18 @@ O objetivo do nosso projeto é criar um software que facilite a revenda de ingre
 
 ### 3.1. Análise da situação atual
 
-_Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propõe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional._
+Atualmente o mercado de revenda de ingressos no Brasil não possui nenhum método ou plataforma especializada e inteiramente desenvolvida para possibilitar o processo de anúncio e revenda de ingressos. Portanto, são utilizadas redes sociais para encontrarem ingressos compatíveis com os interesses do comprador, e diante de tal realidade, os usuários muitas vezes são sujeitos a situações confusas e questionáveis quanto a métodos de pagamento, alteração de titularidade, e terceirização do processo, não tendo um meio adequado que realiza a intermediação da transação.
 
 ### 3.2. Descrição geral da proposta
 
-_Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias._
+O software busca introduzir no mercado uma plataforma que irá revolucionar o processo de revenda de ingressos, introduzindo um meio que possibilite que a revenda de ingressos seja feita de maneira simples e eficiente, além de reduzir as chances de inoportunas desavenças entre o comprador e vendedor, como golpes, atrasos e  falsificações . A plataforma funcionará da seguinte forma:
+1. O usuário, independentemente se for vendedor ou comprador, deve realizar cadastro e posteriormente login, com dados pessoais como nome, sobrenome, CPF válido, número de telefone, endereço, entre outros. Os quais não serão exibidos para outros usuários.
+2. O usuário poderá realizar a postagem de ingressos os quais deseja revender, com um percentual fixo adicional do software, tanto para o comprador quanto para o vendedor.
+3. O usuário que desejar comprar os ingressos terá acesso a todos disponíveis para o evento de interesse, que foram previamente postados no site.
+4. Todos os usuários terão a possibilidade de filtrar o tipo de evento que interessam e poderão também buscar pelo nome do evento.
+5. Os usuários serão avaliados com um sistema de rating  e denúncia, que servirá para auxiliar na confiabilidade das compras.
+6. O software servirá como um intermediador no processo de compra.
+Espera-se que com a introdução de nossa plataforma o processo de revenda de ingressos se torne mais veloz e simples de forma que ao facilitar a vida dos usuários, ganhe relevância no mercado de ingressos.    
 
 ### 3.3. Modelagem dos processos
 
