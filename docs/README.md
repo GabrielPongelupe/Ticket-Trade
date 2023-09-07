@@ -93,15 +93,15 @@ Espera-se que com a introdução de nossa plataforma o processo de revenda de in
 
 ### 3.3. Modelagem dos processos
 
-[PROCESSO 1 - Elaboraçao do cadastro e login.](docs/processo-1-Elaboraçao-do-cadastro-e-login.md "Detalhamento do Processo 1.")
+[PROCESSO 1 - Elaboraçao do cadastro e login.](processo-1-Elaboraçao-do-cadastro-e-login.md "Detalhamento do Processo 1.")
 
-[PROCESSO 2 - Realizaçao da postagem dos ingressos.](docs/processo-2-Realizaçao-da-postagem-dos-ingressos.md "Detalhamento do Processo 2.")
+[PROCESSO 2 - Realizaçao da postagem dos ingressos.](processo-2-Realizaçao-da-postagem-dos-ingressos.md "Detalhamento do Processo 2.")
 
-[PROCESSO 3 - Busca por ingressos disponíveis.](docs/processo-3-Busca-por-ingressos-disponíveis.md "Detalhamento do Processo 3.")
+[PROCESSO 3 - Busca por ingressos disponíveis.](processo-3-Busca-por-ingressos-disponíveis.md "Detalhamento do Processo 3.")
 
-[PROCESSO 4 - Pagamento do ingresso via pix ou outros métodos.](docs/processo-4-Pagamento-do-ingresso-via-pix-ou-outros-métodos.md "Detalhamento do Processo 4.")
+[PROCESSO 4 - Pagamento do ingresso via pix ou outros métodos.](processo-4-Pagamento-do-ingresso-via-pix-ou-outros-métodos.md "Detalhamento do Processo 4.")
 
-[PROCESSO 5 - Avaliaçao e denúncia dos usuários.](docs/processo-5-Avaliaçao-e-denúncia-dos-usuários.md "Detalhamento do Processo 5.")
+[PROCESSO 5 - Avaliaçao e denúncia dos usuários.](processo-5-Avaliaçao-e-denúncia-dos-usuários.md "Detalhamento do Processo 5.")
 
 
 ## 4. Projeto da solução
