@@ -1,4 +1,4 @@
-### 3.3.4 Processo 4 – NOME DO PROCESSO
+### 3.3.4 Processo 4 – Pagamento do ingresso via pix ou outros métodos.
 
 Apresente aqui o nome e as oportunidades de melhoria para o processo 4. 
 Em seguida, apresente o modelo do processo 4, descrito no padrão BPMN.
