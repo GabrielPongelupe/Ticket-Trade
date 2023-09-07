@@ -85,8 +85,7 @@ O software busca introduzir no mercado uma plataforma que irá revolucionar o pr
 2. O usuário realizará a postagem de ingressos os quais deseja revender.
 3. O usuário, com interesse de compra, buscará todos os ingressos disponíveis para o evento em questão.
 4. O usuário, que se interessar pelo ingresso, pagará através de pix ou outros métodos de pagamento no site.
-5. O usuário pagará um percentual fixo adicional pelo software, tanto para o comprador quanto para o vendedor.
-6. O usuário avaliará outros usuários em um sistema de rating e denúncia, que servirá para auxiliar na confiabilidade das compras.
+5. O usuário avaliará outros usuários em um sistema de rating e denúncia, que servirá para auxiliar na confiabilidade das compras.
 
 
 Espera-se que com a introdução de nossa plataforma o processo de revenda de ingressos se torne mais veloz e simples de forma que ao facilitar a vida dos usuários, ganhe relevância no mercado de ingressos.    
@@ -94,17 +93,16 @@ Espera-se que com a introdução de nossa plataforma o processo de revenda de in
 
 ### 3.3. Modelagem dos processos
 
-[PROCESSO 1 - Nome do Processo](processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
+[PROCESSO 1 - Elaboraçao do cadastro e login.](processo-1-nome-do-processo.md "Detalhamento do Processo 1.")
 
-[PROCESSO 2 - Nome do Processo](processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
+[PROCESSO 2 - Realizaçao da postagem dos ingressos.](processo-2-nome-do-processo.md "Detalhamento do Processo 2.")
 
-[PROCESSO 3 - Nome do Processo](processo-3-nome-do-processo.md "Detalhamento do Processo 3.")
+[PROCESSO 3 - Busca por ingressos disponíveis.](processo-3-nome-do-processo.md "Detalhamento do Processo 3.")
 
-[PROCESSO 4 - Nome do Processo](processo-4-nome-do-processo.md "Detalhamento do Processo 4.")
+[PROCESSO 4 - Pagamento do ingresso via pix ou outros métodos.](processo-4-nome-do-processo.md "Detalhamento do Processo 4.")
 
-[PROCESSO 5 - Nome do Processo](processo-5-nome-do-processo.md "Detalhamento do Processo 5.")
+[PROCESSO 5 - Avaliaçao e denúncia dos usuários.](processo-5-nome-do-processo.md "Detalhamento do Processo 5.")
 
-[PROCESSO 6 - Nome do Processo](processo-6-nome-do-processo.md "Detalhamento do Processo 6.")
 
 ## 4. Projeto da solução
 
