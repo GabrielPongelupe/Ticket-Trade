@@ -81,11 +81,12 @@ Atualmente, no cenário da revenda de ingressos no Brasil, nota-se uma lacuna si
 
 O software busca introduzir no mercado uma plataforma que irá revolucionar o processo de revenda de ingressos, introduzindo um meio que possibilite que a revenda de ingressos seja feita de maneira simples e eficiente, além de reduzir as chances de inoportunas desavenças entre o comprador e vendedor, como golpes, atrasos e  falsificações . A plataforma funcionará da seguinte forma:
 
-1. O usuário realizará a postagem de ingressos os quais deseja revender.
-2. O usuário, com interesse de compra, buscará todos os ingressos disponíveis para o evento em questão.
-3. O usuário, que se interessar pelo ingresso, pagará através de pix ou outros métodos de pagamento no site.
-4. O usuário pagará um percentual fixo adicional pelo software, tanto para o comprador quanto para o vendedor
-5. O usuário avaliará outros usuários em um sistema de rating e denúncia, que servirá para auxiliar na confiabilidade das compras.
+1. O usuário deve realizar cadastro e login.
+2. O usuário realizará a postagem de ingressos os quais deseja revender.
+3. O usuário, com interesse de compra, buscará todos os ingressos disponíveis para o evento em questão.
+4. O usuário, que se interessar pelo ingresso, pagará através de pix ou outros métodos de pagamento no site.
+5. O usuário pagará um percentual fixo adicional pelo software, tanto para o comprador quanto para o vendedor.
+6. O usuário avaliará outros usuários em um sistema de rating e denúncia, que servirá para auxiliar na confiabilidade das compras.
 
 
 Espera-se que com a introdução de nossa plataforma o processo de revenda de ingressos se torne mais veloz e simples de forma que ao facilitar a vida dos usuários, ganhe relevância no mercado de ingressos.    
