@@ -93,7 +93,7 @@ Espera-se que com a introdução de nossa plataforma o processo de revenda de in
 
 ### 3.3. Modelagem dos processos
 
-[PROCESSO 1 - Elaboraçao do cadastro e login.](processo-1-Elaboraçao-do-cadastro-e-login.md "Detalhamento do Processo 1.")
+[PROCESSO 1 - Elaboraçao do cadastro e login.](docs/processo-1-Elaboraçao-do-cadastro-e-login.md "Detalhamento do Processo 1.")
 
 [PROCESSO 2 - Realizaçao da postagem dos ingressos.](processo-2-Realizaçao-da-postagem-dos-ingressos.md "Detalhamento do Processo 2.")
 
