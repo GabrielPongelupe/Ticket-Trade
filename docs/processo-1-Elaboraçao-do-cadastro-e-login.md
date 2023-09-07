@@ -29,8 +29,6 @@ Os tipos de dados a serem utilizados são:
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
 | login           | Caixa de Texto   | formato de e-mail |                |
 | senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
 | CPF             | Caixa de Texto   | 11 caracteres          |           |
