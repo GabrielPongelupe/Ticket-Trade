@@ -1,4 +1,4 @@
-### 3.3.3 Processo 3 – Busca por ingressos disponíveis.
+### 3.3.3 Processo 3 – Pagamento-do-ingresso
 
 Apresente aqui o nome e as oportunidades de melhoria para o processo 3. 
 Em seguida, apresente o modelo do processo 3, descrito no padrão BPMN.
