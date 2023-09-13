@@ -70,6 +70,8 @@ O objetivo do nosso projeto é criar um software que facilite a revenda de ingre
 
 **Vendedores (Revendedores de Ingressos e, consequentemente usuário):** São as empresas ou indivíduos que possuem ingressos para eventos e desejam vendê-los por meio do software. Eles podem ser promotores de eventos, agências de viagens, ou até mesmo pessoas que compraram ingressos e decidiram revendê-los. 
 
+**Administrador: São integrantes do sistema que irão trabalhar na validação dos dados inseridos pelos usuários, tais como CPF, chave PIX, etc.
+
 ## 3. Modelagem do processo de negócio
 
 ### 3.1. Análise da situação atual
@@ -82,10 +84,11 @@ Atualmente, no cenário da revenda de ingressos no Brasil, nota-se uma lacuna si
 O software busca introduzir no mercado uma plataforma que irá revolucionar o processo de revenda de ingressos, introduzindo um meio que possibilite que a revenda de ingressos seja feita de maneira simples e eficiente, além de reduzir as chances de inoportunas desavenças entre o comprador e vendedor, como golpes, atrasos e  falsificações . A plataforma funcionará da seguinte forma:
 
 1. O usuário deve realizar cadastro e login.
-2. O usuário realizará a postagem de ingressos os quais deseja revender.
-3. O usuário, com interesse de compra, buscará todos os ingressos disponíveis para o evento em questão.
-4. O usuário, que se interessar pelo ingresso, pagará através de pix ou outros métodos de pagamento no site.
+2. O usuário realizará a postagem de ingressos os quais deseja revender e poderá navegar pelos ingressos previamente postados por outros usuuários.
+3. O usuário, que se interessar pelo ingresso, pagará através de pix ou outros métodos de pagamento no site.
+4. O administrador, ao receber o pagamento do comprador, irá rete-lo em um sistema para ser repassado após a validaçao do ingresso.
 5. O usuário avaliará outros usuários em um sistema de rating e denúncia, que servirá para auxiliar na confiabilidade das compras.
+6. O usuário, tanto comprador quanto vendedor, terao de emitir uma mensagem referente a troca de titularidade do ingresso.
 
 
 Espera-se que com a introdução de nossa plataforma o processo de revenda de ingressos se torne mais veloz e simples de forma que ao facilitar a vida dos usuários, ganhe relevância no mercado de ingressos.    
@@ -95,13 +98,17 @@ Espera-se que com a introdução de nossa plataforma o processo de revenda de in
 
 [PROCESSO 1 - Elaboraçao do cadastro e login.](processo-1-Elaboraçao-do-cadastro-e-login.md "Detalhamento do Processo 1.")
 
-[PROCESSO 2 - Realizaçao da postagem dos ingressos.](processo-2-Realizaçao-da-postagem-dos-ingressos.md "Detalhamento do Processo 2.")
+[PROCESSO 2 - Realizaçao da postagem e busca por ingressos.](processo-2-Realizaçao-da-postagem-dos-ingressos.md "Detalhamento do Processo 2.")
 
-[PROCESSO 3 - Busca por ingressos disponíveis.](processo-3-Busca-por-ingressos-disponíveis.md "Detalhamento do Processo 3.")
+[PROCESSO 3 - Pagamento do ingresso.](processo-4-Pagamento-do-ingresso-via-pix-ou-outros-métodos.md "Detalhamento do Processo 4.")
 
-[PROCESSO 4 - Pagamento do ingresso via pix ou outros métodos.](processo-4-Pagamento-do-ingresso-via-pix-ou-outros-métodos.md "Detalhamento do Processo 4.")
+[PROCESSO 4 - Retençao do pagamento.](processo-5-Avaliaçao-e-denúncia-dos-usuários.md "Detalhamento do Processo 5.")
 
 [PROCESSO 5 - Avaliaçao e denúncia dos usuários.](processo-5-Avaliaçao-e-denúncia-dos-usuários.md "Detalhamento do Processo 5.")
+
+[PROCESSO 6 - Validaçao do ingresso.](processo-5-Validaçao-do-ingresso.md "Detalhamento do Processo 5.")
+
+
 
 
 ## 4. Projeto da solução
