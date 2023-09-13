@@ -98,15 +98,15 @@ Espera-se que com a introdução de nossa plataforma o processo de revenda de in
 
 [PROCESSO 1 - Elaboraçao do cadastro e login.](processo-1-Elaboraçao-do-cadastro-e-login.md "Detalhamento do Processo 1.")
 
-[PROCESSO 2 - Realizaçao da postagem e busca por ingressos.](processo-2-Realizaçao-da-postagem-dos-ingressos.md "Detalhamento do Processo 2.")
+[PROCESSO 2 - Realizaçao da postagem e busca por ingressos.](processo-2-Realizaçao-da-postagem-e-busca-por-ingressos.md "Detalhamento do Processo 2.")
 
-[PROCESSO 3 - Pagamento do ingresso.](processo-4-Pagamento-do-ingresso-via-pix-ou-outros-métodos.md "Detalhamento do Processo 4.")
+[PROCESSO 3 - Pagamento do ingresso.](processo-3-Pagamento-do-ingresso.md "Detalhamento do Processo 3.")
 
-[PROCESSO 4 - Retençao do pagamento.](processo-5-Avaliaçao-e-denúncia-dos-usuários.md "Detalhamento do Processo 5.")
+[PROCESSO 4 - Retençao do pagamento.](processo-4-Retençao-do-pagamento.md "Detalhamento do Processo 4.")
 
 [PROCESSO 5 - Avaliaçao e denúncia dos usuários.](processo-5-Avaliaçao-e-denúncia-dos-usuários.md "Detalhamento do Processo 5.")
 
-[PROCESSO 6 - Validaçao do ingresso.](processo-5-Validaçao-do-ingresso.md "Detalhamento do Processo 5.")
+[PROCESSO 6 - Validaçao do ingresso.](processo-6-Validaçao-do-ingresso.md "Detalhamento do Processo 6.")
 
 
 
