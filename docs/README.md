@@ -98,7 +98,7 @@ Espera-se que com a introdução de nossa plataforma o processo de revenda de in
 
 [PROCESSO 1 - Elaboraçao do cadastro e login.](processo-1-Elaboraçao-do-cadastro-e-login.md "Detalhamento do Processo 1.")
 
-[PROCESSO 2 - Realizaçao da postagem e busca por ingressos.](processo-2-Realizaçao-da-postagem-e-busca-por-ingressos.md "Detalhamento do Processo 2.")
+[PROCESSO 2 - Gerenciar postagem.](processo-2-Gerenciar-Postagem.md "Detalhamento do Processo 2.")
 
 [PROCESSO 3 - Pagamento do ingresso.](processo-3-Pagamento-do-ingresso.md "Detalhamento do Processo 3.")
 
