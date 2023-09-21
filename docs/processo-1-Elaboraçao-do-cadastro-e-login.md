@@ -5,8 +5,6 @@ Elaboração do cadastro e login - facilita o controle de usuários e contribui 
 
 ![Exemplo de um Modelo BPMN do PROCESSO 1](images/processo1.png "Modelo BPMN do Processo 1.")
 
-#### Detalhamento das atividades
-
 
 **Login**
 
