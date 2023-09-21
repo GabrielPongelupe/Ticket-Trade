@@ -1,7 +1,7 @@
 ### 3.3.1 Processo 1 – Elaboraçao do cadastro e login.
 
-Apresente aqui o nome e as oportunidades de melhoria para o processo 1. 
-Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
+facilita o controle de usuários e contribui para o sistema de rating e denúncias funcionarem efetivamente.
+
 
 ![Exemplo de um Modelo BPMN do PROCESSO 1](images/processo1.png "Modelo BPMN do Processo 1.")
 
