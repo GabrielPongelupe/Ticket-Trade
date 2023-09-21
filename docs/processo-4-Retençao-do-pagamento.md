@@ -25,31 +25,28 @@ Os tipos de dados a serem utilizados são:
 * **Link** - campo que armazena uma URL
 * **Tabela** - campo formado por uma matriz de valores
 
-**Nome da atividade 1**
+**Mensagem Suporte**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
+| Mensagem Suporte         | Caixa de Texto   | 240 caractéres |                |
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
-
-
-**Nome da atividade 2**
+| Suporte        | Inicio do processo de mensagem |                   |
+| Enviar      | Fim do processo de mensagem |                   |
+**Visualizar Verificaçao**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-|                 |                  |                |                   |
+| Visualizar comprovante       | Imagem  | Imagem|           |
 
-| **Comandos**         |  **Destino**                   | **Tipo**          |
+| **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+| Histórico de Ingressos           | Página de ingressos vendidos/comprados             | default           |
+| Ver mais     | Detalhes sobre a transaçao          | default           |
+
+
+
+
+
