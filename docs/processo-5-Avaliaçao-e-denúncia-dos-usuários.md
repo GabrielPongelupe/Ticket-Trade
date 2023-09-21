@@ -26,25 +26,25 @@ Os tipos de dados a serem utilizados são:
 * **Link** - campo que armazena uma URL
 * **Tabela** - campo formado por uma matriz de valores
 
-**Nome da atividade 1**
+**Rating**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| Rating          | Seleção única  | 1 a 5 estrelas |                |
+| Rating          | Seleção única  | 1 a 5 estrelas |       0         |
 
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
 | Avaliar              | Inicio do processo de avaliaçao            | default           |
-| Estrela         | Selecionar número de estrelas  |                   |
+| Estrela         | Selecionar número de estrelas  |                 |
 | Enviar       | Fim do processo de avaliaçao |                   |
 
 
-**Nome da atividade 2**
+**Denúncia**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| Denuncia          | Caixa de Texto   | maximo de 240 caracteres |           |
+| Denuncia          | Caixa de Texto   | maximo de 240 caracteres | campo em branco          |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
