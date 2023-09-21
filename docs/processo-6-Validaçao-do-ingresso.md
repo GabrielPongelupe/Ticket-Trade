@@ -1,7 +1,7 @@
 ### 3.3.1 Processo 6 – Validaçao do ingresso.
 
-Apresente aqui o nome e as oportunidades de melhoria para o processo 1. 
-Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
+Validação do ingresso - Este processo melhora o sistema de proteção do software, fazendo com que o pagamento só seja repassado após a garantia de integridade do ingresso, através da troca do titular. Portanto, não permite que o vendedor ou comprador aproveitem de maneira problemática do sistema.
+
 
 ![Exemplo de um Modelo BPMN do PROCESSO 1](images/processo6.png "Modelo BPMN do Processo 1.")
 
