@@ -15,6 +15,7 @@ Validação do ingresso - Este processo melhora o sistema de proteção do softw
 
 
 | **Comandos**         |  **Destino**                   | **Tipo**     |
+| ---             | ---              | ---            | 
 | Iniciar              | inicio da troca de titularidade| (Botão)       |
 | Finalizar            | Fim da troca de titularidade   | (Botão)       |
 
@@ -28,5 +29,5 @@ Validação do ingresso - Este processo melhora o sistema de proteção do softw
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
-| Ingresso Validado|   | Ingresos do Cliente            |(Botão)              |
+| Ingresso Validado   | Ingresos do Cliente            |(Botão)              |
 | Ingresso Não Validado | Envio de mensagem para o Sistema| (Botão)           |
