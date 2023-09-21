@@ -31,16 +31,13 @@ Os tipos de dados a serem utilizados são:
 | ---             | ---              | ---            | ---               |
 | login           | Caixa de Texto   | formato de e-mail |                |
 | senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
-| CPF             | Caixa de Texto   | 11 caracteres          |           |
-| Data de nascimento | Data        | Data Válida         |           |
+
 
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
+| Sign In           | Início do proceso de Login  |                   |
+| Log In           |  Página inicial do site |                   |
 
 
 **Cadastro**
@@ -56,5 +53,5 @@ Os tipos de dados a serem utilizados são:
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+| Cadastrar            | Início do proceso de cadastro  |                   |
+| Concluir Cadastro    |  Fim do processo de cadastro  |                   |
