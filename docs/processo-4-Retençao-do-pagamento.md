@@ -1,7 +1,6 @@
 ### 3.3.4 Processo 4 – Retençao do pagamento.
 
-Apresente aqui o nome e as oportunidades de melhoria para o processo 4. 
-Em seguida, apresente o modelo do processo 4, descrito no padrão BPMN.
+Retenção do Pagamento - Este processo é utilizado para garantir maior segurança no aplicativo, retendo o pagamento e não repassando para o vendedor até que a troca de titularidade seja efetuada.  Prevenindo assim, casos de golpe ou outras falhas de segurança.
 
 ![Exemplo de um Modelo BPMN do PROCESSO 4](images/processo4.png "Modelo BPMN do Processo 4.")
 
