@@ -1,7 +1,6 @@
 ### 3.3.3 Processo 3 – Pagamento-do-ingresso
 
-Apresente aqui o nome e as oportunidades de melhoria para o processo 3. 
-Em seguida, apresente o modelo do processo 3, descrito no padrão BPMN.
+Pagamento do Ingresso - Este processo agiliza a compra e venda de ingressos, permitindo um ambiente confiável para o comprador através de uma intermediação feita pelo sistema.
 
 ![Exemplo de um Modelo BPMN do PROCESSO 3](images/processo3.png "Modelo BPMN do Processo 3.")
 
