@@ -34,17 +34,17 @@ Os tipos de dados a serem utilizados são:
 |                 |                  |                |                   |
 |                 |                  |                |                   |
 
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| Finalizar cadastro   | Finalizar o processo de cadastro de ingresso  |  (Botão) |
-| cadastrar            | Iníciar o processo de cadastro de ingresso  |  (Botão) |
+| **Comandos**         |  **Destino**                                  | **Tipo**   |
+| Finalizar cadastro   | Finalizar o processo de cadastro de ingresso  |  (Botão)   |
+| cadastrar            | Iníciar o processo de cadastro de ingresso    |  (Botão)   |
 
 
 **Busca de ingresso**
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| Busca ingresso  |  Caixa de Texto  |                | (insira o nome do ingresso)|
-| Tabela          |  Campo com todos os ingressos disponivéis |---             | Default            |
+| **Campo**       | **Tipo**                                  | **Restrições**         | **Valor default**          |
+| Busca ingresso  |  Caixa de Texto                           |                        | (insira o nome do ingresso)|
+| Tabela          |  Campo com todos os ingressos disponivéis |                        | Default                    |
 
-| **Comandos**         |  **Destino**                   | **Tipo**          |
-| Buscar               | Realiza a busca do ingresso    | (Botão)           |
+| **Comandos**         |  **Destino**                               | **Tipo**        |
+| Buscar               | Realiza a busca do ingresso                | (Botão)         |
 | Realizar pagamento   | Inicia o processo de pagamento do ingresso |  (Botão)        |
