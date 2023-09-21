@@ -1,4 +1,4 @@
-### 3.3.2 Processo 2 – Realizaçao da postagem e busca por ingressos.
+### 3.3.2 Processo 2 – Gerenciar Postagem.
 
 Apresente aqui o nome e as oportunidades de melhoria para o processo 2. 
 Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
