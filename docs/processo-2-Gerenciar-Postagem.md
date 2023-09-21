@@ -26,31 +26,25 @@ Os tipos de dados a serem utilizados são:
 * **Link** - campo que armazena uma URL
 * **Tabela** - campo formado por uma matriz de valores
 
-**Nome da atividade 1**
+**Postagem**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
-| ***Exemplo:***  |                  |                |                   |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
-
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| entrar               | Fim do Processo 1              | default           |
-| cadastrar            | Início do proceso de cadastro  |                   |
-
-
-**Nome da atividade 2**
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| [Nome do campo] | [tipo de dados]  |                |                   |
+| Descrição       |  Caixa de Texto  |---             | (informe a descição)|
+| Preço           |  Número          | ---            |    default        |
+|                 |                  |                |                   |
 |                 |                  |                |                   |
 
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| Finalizar cadastro   | Finalizar o processo de cadastro de ingresso  |  (Botão) |
+| cadastrar            | Iníciar o processo de cadastro de ingresso  |  (Botão) |
+
+
+**Busca de ingresso**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| Busca ingresso  |  Caixa de Texto  |                | (insira o nome do ingresso)|
+| Tabela          |  Campo com todos os ingressos disponivéis |---             | Default            |
+
 | **Comandos**         |  **Destino**                   | **Tipo**          |
-| ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-|                      |                                |                   |
+| Buscar               | Realiza a busca do ingresso    | (Botão)           |
+| Realizar pagamento   | Inicia o processo de pagamento do ingresso |  (Botão)        |
