@@ -6,33 +6,44 @@ Elaboração do cadastro e login - facilita o controle de usuários e contribui 
 ![Exemplo de um Modelo BPMN do PROCESSO 1](images/processo1.png "Modelo BPMN do Processo 1.")
 
 
-**Login**
+**Acessar Tela Inicial**
 
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| login           | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
 
 
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| Sign In           | Início do proceso de Login  |                   |
-| Log In           |  Página inicial do site |                   |
+| Login           | Página de Login  |    (Default)               |
+| Criar Conta           | Página de Cadastro |          (Default)        |
 
 
-**Cadastro**
+
+**Preencher dados do Cadastro**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| Nome       | Caixa de Texto   | somente caracteres alfabéticos |                |
-| email         | Caixa de Texto   | formato de e-mail |                |
-| senha           | Caixa de Texto   | mínimo de 8 caracteres |           |
-| CPF             | Caixa de Texto   | 11 caracteres          |           |
-| Data de nascimento | Data        | Data Válida         |           |
-| Chave PIX          | Caixa de Texto   |       |           |
+| Nome       | Caixa de Texto   | somente caracteres alfabéticos |   (null)             |
+| email         | Caixa de Texto   | formato de e-mail |         (null)       |
+| senha           | Caixa de Texto   | mínimo de 8 caracteres |     (null)      |
+| CPF             | Caixa de Texto   | 11 caracteres numéricos         |  (null)         |
+| Data de nascimento | Data        | Data Válida         |     (null)      |
+| Identidade       | Imagem        | Imagem        |     (null)      |
+| Chave PIX          | Caixa de Texto   |   caracteres     |     (null)      |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
-| Cadastrar            | Início do proceso de cadastro  |                   |
-| Concluir Cadastro    |  Fim do processo de cadastro  |                   |
+| Concluir Cadastro    | Login                          |      (Default)    |
+
+
+**Realizar Login**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| email         | Caixa de Texto   | formato de e-mail |      (null)      |
+| senha           | Caixa de Texto   | mínimo de 8 caracteres |   (null)  |
+
+
+| **Comandos**         |  **Destino**                   | **Tipo**          |
+| ---                  | ---                            | ---               |
+| Concluir Login       | Página Inicial                 |     (Default)     |
+
