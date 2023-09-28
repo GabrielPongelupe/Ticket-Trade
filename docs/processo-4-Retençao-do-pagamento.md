@@ -5,27 +5,28 @@ Retenção do Pagamento - Este processo é utilizado para garantir maior seguran
 ![Exemplo de um Modelo BPMN do PROCESSO 4](images/processo4.png "Modelo BPMN do Processo 4.")
 
 
-**Mensagem Suporte**
+**Mensagem de Suporte**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| Mensagem Suporte         | Caixa de Texto   | 240 caractéres |                |
+| Mensagem Suporte| Caixa de Texto   | 240 caractéres |(Null)             |
 
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| Suporte        | Inicio do processo de mensagem |                   |
-| Enviar      | Fim do processo de mensagem |                   |
+| **Comandos**         |  **Destino**                   | **Tipo**        |
+| ---                  | ---                            | ---             |
+| Enviar               |Retorna a paginma inicial       | (Defalt)        |
 
-**Visualizar Verificaçao**
+**Enviar Mensagem Para o Usuário com o comprovante**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| Visualizar comprovante       | Imagem  | Imagem|           |
+| Inserir Comprovante | Imagem       | Imagem         | (Null)            |
+| Mensagem Para o Usuário| Caixa de Texto |  240 caractéres| (Null)       |
 
-| **Comandos**         |  **Destino**                   | **Tipo** |
-| ---                  | ---                            | ---               |
-| Histórico de Ingressos           | Página de ingressos vendidos/comprados             | default           |
-| Ver mais     | Detalhes sobre a transaçao          | default           |
+
+| **Comandos**         |  **Destino**                   | **Tipo**   |
+| ---                  | ---                            | ---        |
+| Adicionar Arquivo    | Galeria/Pasta, de Arquivos     | (default)  | 
+| Enviar               | Retorna Pagina inicial         | (default)  |
 
 
 
