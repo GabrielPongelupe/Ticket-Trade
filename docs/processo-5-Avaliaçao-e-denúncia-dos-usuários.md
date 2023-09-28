@@ -34,7 +34,7 @@ Avaliação e denúncia dos usuários - Este processo é usado para melhorar a s
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Enviar     | Retorna ao historico de ingressos do cliente|   (default)                |
-| Concluir       | Pagina Inicial  |                   |
+| Concluir       | Pagina Inicial  |        (default)           |
 
 
 **Atribuir puniçao ao usuario denunciado e comunicá-lo**
