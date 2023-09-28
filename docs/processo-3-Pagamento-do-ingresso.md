@@ -6,32 +6,67 @@ Pagamento do Ingresso - Este processo agiliza a compra e venda de ingressos, per
 
 
 
-**Pamento Pix**
+**Escolher forma de pagamento**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| Forma de Pagamento         | Seleção única   | Seleçao |                |
-| QrCode        | Imagem   | QrCode |           |
-| Codigo PIX         | Caixa de Texto   | Numeros, Caracteres especiais e Texto |           |
-| Código de barras     | Imagem   | Código de barras |           |
+| Pix        | Imagem   | Imagem de pix |      ---     |
+| Boleto         | Imagem  | Imagem de boleto |    ---     |
+
 
 
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
-| [Nome do botão/link] | Atividade/processo de destino  | (default/cancel/  ) |
-| ***Exemplo:***       |                                |                   |
-| Escolher forma de pagamento              | Iniciar pagamento            | default           |
-| Concluir pagamento        | Fim do processo de pagamento |                   |
+| Pix | Pagamento por pix  | default |
+| Boleto      |   Pagamento por boleto  |  default |
 
 
-**Pagamento Boleto**
+
+
+**Pagamento por Pix**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| Código de barras     | Imagem   | Código de barras |           |
-| Codigo do boleto         | Caixa de Texto   | Numeros, Caracteres especiais e Texto |           |
+| QrCode        | Imagem   | QRcode de pix |     ---      |
+| Codigo PIX         | Caixa de Texto   | Numeros, Caracteres especiais e Texto |     ---      |
+
+
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Voltar | Escolher forma de pagamento  | (Default) |
+
+
+
+
+
+
+**Pagamento por Boleto**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| Código de barras     | Imagem   | Código de barras |     ---      |
+
+
+
+| **Comandos**         |  **Destino**                   | **Tipo** |
+| ---                  | ---                            | ---               |
+| Voltar | Escolher forma de pagamento  | (Default) |
+
+
+
+
+
+
+**Realizar a Verificação do pagamento**
+
+| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
+| ---             | ---              | ---            | ---               |
+| Verificação do Pagamento             | Texto              | ---            | Verificação do Pagamento              |
+| Mensagem de Erro     | Caixa de Texto   | 240 caracteres |  Erro na verificação de pagamento          |
+
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
-| Escolher forma de pagamento              | Iniciar pagamento            | default           |
-| Concluir pagamento        | Fim do processo de pagamento |                   |
+| Valido              | Iniciar pagamento            | default           |
+| Não Valido       | Tela de Envio de mensagem ao usuário |      default             |
