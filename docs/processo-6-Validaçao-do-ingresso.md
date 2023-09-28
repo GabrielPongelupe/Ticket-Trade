@@ -5,29 +5,20 @@ Validação do ingresso - Este processo melhora o sistema de proteção do softw
 
 ![Exemplo de um Modelo BPMN do PROCESSO 1](images/processo6.png "Modelo BPMN do Processo 1.")
 
-**Trocar Titularidade**
-
-| **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
-| ---             | ---              | ---            | ---               |
-| Nome            | Caixa de Texto   | 80 caracteres  |                   |
-| CPF             | Caixa de Texto   | 11 caracteres  |                   |
-| Data de nascimento | Data          | Data Válida    |                   |
-
-
+**Verificar envio e validaçao**
 | **Comandos**         |  **Destino**                   | **Tipo**     |
 | ---             | ---              | ---            | 
-| Iniciar              | inicio da troca de titularidade| (Botão)       |
-| Finalizar            | Fim da troca de titularidade   | (Botão)       |
+| Validado         |Histórico de compra e venda  | (default)    |
+| Nao  validado       | Tela de mensagem   | (default)       |
 
 
-**Verificar Validação do Ingresso**
+**Enviar mensagem ao sistema**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| Ingresso        | Caixa de Texto   | Textos e Imagens|                  |
+| Mensagem       | Caixa de Texto   | 240 caracteres|    (null)              |
 
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
-| Ingresso Validado   | Ingresos do Cliente            |(Botão)              |
-| Ingresso Não Validado | Envio de mensagem para o Sistema| (Botão)           |
+| Enviar   |   Verificar envio e validaçao        |(Botão)              |
