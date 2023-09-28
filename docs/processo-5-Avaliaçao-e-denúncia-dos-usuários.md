@@ -11,6 +11,7 @@ Avaliação e denúncia dos usuários - Este processo é usado para melhorar a s
 | ---                  | ---                            | ---               |
 | Rating            | Inicio do preenchimento do rating        | default           |
 | Denuncia         | Inicio do preenchimento da denuncia       | default           |
+
 **Preencher sistema de rating**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
