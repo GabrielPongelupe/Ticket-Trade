@@ -70,7 +70,7 @@ O objetivo do nosso projeto é criar um software que facilite a revenda de ingre
 
 **Vendedores (Revendedores de Ingressos e, consequentemente usuário):** São as empresas ou indivíduos que possuem ingressos para eventos e desejam vendê-los por meio do software. Eles podem ser promotores de eventos, agências de viagens, ou até mesmo pessoas que compraram ingressos e decidiram revendê-los. 
 
-**Administrador: São integrantes do sistema que irão trabalhar na validação dos dados inseridos pelos usuários, tais como CPF, chave PIX, etc.
+**Administrador:** São integrantes do sistema que irão trabalhar na validação dos dados inseridos pelos usuários, tais como CPF, chave PIX, etc.
 
 ## 3. Modelagem do processo de negócio
 
