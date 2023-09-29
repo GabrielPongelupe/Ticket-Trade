@@ -5,7 +5,7 @@ Este diretório mantém os artefatos relativos à modelagem de dados do projeto.
 Os principais documentos a serem produzidos são:
 
 
-* [`Entity-Relation Diagram`](DER.erd)
+* [`Entity-Relation Diagram`]([DER.erd](https://drive.google.com/file/d/1GXhOg28yuybMqIq8fIoYKAaQoNOWTie8/view?usp=sharing))
 	* Apresentar o DER em arquivo editável no formato compatível com a ferramenta utilizada pela equipe.
 
 * [`database_creation_script.sql`](database_creation_script.sql)
