@@ -48,8 +48,11 @@ Conforme diagrama apresentado, as entidades participantes da solução são:
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
-
+Logo: estará apresentada na parte superior esquerda da tela, conforme a imagem.
+Login: Canto superior Direito
+Venda de ingressos: Acessa aba para vender ingresso.
+Compra de ingressos: Acessa aba para comprar ingresso.
+Denuncia: Acessa aba de denuncia de usuário.
 
 ## Cores
 
