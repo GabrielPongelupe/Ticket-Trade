@@ -8,13 +8,10 @@ _Acrescente uma breve descrição sobre o diagrama apresentado. Descreva cada um
 
 ### 4.2. Diagrama de componentes
 
-_Apresente o diagrama de componentes da aplicação, indicando os elementos da arquitetura e as interfaces entre eles. Faça uma descrição sucinta dos componentes indicando o papel de cada um deles dentro da arquitetura/estilo/padrão arquitetural. Indique também quais componentes serão reutilizados (navegadores, SGBDs, middlewares, etc), quais componentes serão adquiridos por serem proprietários e quais componentes precisam ser desenvolvidos._
+![Diagrama de componentes](images/DiagramaComponentes.png)
 
-![image](docs/images/DiagramaComponentes.png)
 
-_Apresente uma descrição detalhada dos artefatos que constituem o diagrama de componentes._
-
-Exemplo: conforme diagrama apresentado, as entidades participantes da solução são:
+Conforme diagrama apresentado, as entidades participantes da solução são:
 
 - **Sistema de Pagamento** - Sistema onde ocorre a logica de pagamanto e a verificacao , no caso , pix ou boleta.
 - **Banco de Dados** - Onde os dados de compras e vendas serao guardados e as informacoes de clientes e vendedores.
@@ -36,8 +33,6 @@ _Apresente o modelo de dados por meio de um modelo relacional ou Diagrama de Ent
 ![Diagrama de Entidade Relacionamento de Exemplo](images/er_diagram.png "Diagrama de Entidade Relacionamento de Exemplo")
 
 ### 4.4. Tecnologias
-
-_Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário._
 
 | **Dimensão**   | **Tecnologia**  |
 | ---            | ---             |
