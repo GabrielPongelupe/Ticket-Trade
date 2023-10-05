@@ -44,7 +44,7 @@ Conforme diagrama apresentado, as entidades participantes da solução são:
 
 ### 4.5. Guias de estilo
 
-![Diagrama de componentes](images/HTMLeCSS)
+![Diagrama de componentes](images/HTMLeCSS.png)
 
 ## Design
 
@@ -53,7 +53,7 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-![Diagrama de componentes](docs/images/Paleta de Cores.jpeg)
+![Diagrama de componentes](images/Paleta_cores.jpeg)
 
 
 ## Tipografia
