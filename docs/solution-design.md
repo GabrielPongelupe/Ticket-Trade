@@ -10,8 +10,7 @@ _Acrescente uma breve descrição sobre o diagrama apresentado. Descreva cada um
 
 _Apresente o diagrama de componentes da aplicação, indicando os elementos da arquitetura e as interfaces entre eles. Faça uma descrição sucinta dos componentes indicando o papel de cada um deles dentro da arquitetura/estilo/padrão arquitetural. Indique também quais componentes serão reutilizados (navegadores, SGBDs, middlewares, etc), quais componentes serão adquiridos por serem proprietários e quais componentes precisam ser desenvolvidos._
 
-![Diagrama de componentes](docs/images/DiagramaComponentes.jpeg
-)
+![Diagrama de componentes](docs/images/DiagramaComponentes.png)
 
 _Apresente uma descrição detalhada dos artefatos que constituem o diagrama de componentes._
 
