@@ -44,9 +44,7 @@ Conforme diagrama apresentado, as entidades participantes da solução são:
 
 ### 4.5. Guias de estilo
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-Explique as guias de estilo utilizadas no seu projeto.
+![Diagrama de componentes](images/HTMLeCSS)
 
 ## Design
 
@@ -55,17 +53,17 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+![Diagrama de componentes](docs/images/Paleta de Cores.jpeg)
 
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de seção, Rótulos de componentes e Corpo de Texto.
-
+O tipo de fonte apresentado no projeto sera: 'Poppins', sans-serif;
 
 ## Iconografia
 
 Defina os ícones que serão utilizados e suas respectivas funções.
+
 
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
 Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
