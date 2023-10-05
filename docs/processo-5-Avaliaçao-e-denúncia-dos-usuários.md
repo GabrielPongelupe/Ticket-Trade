@@ -24,7 +24,7 @@ Avaliação e denúncia dos usuários - Este processo é usado para melhorar a s
 
 
 
-**Preencher denúncias do usuário e enviar**
+**Preencher a denúncia do usuário e enviar**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
