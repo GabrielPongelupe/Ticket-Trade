@@ -5,7 +5,7 @@ Retenção do Pagamento - Este processo é utilizado para garantir maior seguran
 ![Exemplo de um Modelo BPMN do PROCESSO 4](images/processo4.png "Modelo BPMN do Processo 4.")
 
 
-**Mensagem de Suporte**
+**Enviar mensagem de suporte**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
@@ -15,7 +15,7 @@ Retenção do Pagamento - Este processo é utilizado para garantir maior seguran
 | ---                  | ---                            | ---             |
 | Enviar               |Retorna a paginma inicial       | (Defalt)        |
 
-**Enviar Mensagem Para o Usuário com o comprovante**
+**Enviar mensagem para o uusuário com o comprovante**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
