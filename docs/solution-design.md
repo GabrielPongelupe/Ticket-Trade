@@ -48,11 +48,17 @@ Conforme diagrama apresentado, as entidades participantes da solução são:
 
 ## Design
 
+
 Logo: estará apresentada na parte superior esquerda da tela, conforme a imagem.
+
 Login: Canto superior Direito
+
 Venda de ingressos: Acessa aba para vender ingresso.
+
 Compra de ingressos: Acessa aba para comprar ingresso.
+
 Denuncia: Acessa aba de denuncia de usuário.
+
 
 ## Cores
 
