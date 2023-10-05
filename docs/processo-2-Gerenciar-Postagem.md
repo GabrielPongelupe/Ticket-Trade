@@ -6,7 +6,7 @@ Gerenciar Ponstagem - Contribui para o usuário, que deseja efetuar a compra ou 
 ![Exemplo de um Modelo BPMN do PROCESSO 2](images/processo2.png "Modelo BPMN do Processo 2.")
 
 
-**Postagem**
+**Realizar o cadastro da descriçao, preço do ingresso e postá-lo**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
@@ -22,7 +22,7 @@ Gerenciar Ponstagem - Contribui para o usuário, que deseja efetuar a compra ou 
 
 
 
-**Busca de ingresso**
+**Buscar o ingresso**
 
 | **Campo**       | **Tipo**                                  | **Restrições**         | **Valor default**          |
 | ---             | ---                                        | ---                    | ---               |
