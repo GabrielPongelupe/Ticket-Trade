@@ -5,14 +5,14 @@ Validação do ingresso - Este processo melhora o sistema de proteção do softw
 
 ![Exemplo de um Modelo BPMN do PROCESSO 1](images/processo6.png "Modelo BPMN do Processo 1.")
 
-**Verificar envio e validaçao**
+**Verificar se o ingresso foi enviado e validado**
 | **Comandos**         |  **Destino**                   | **Tipo**     |
 | ---             | ---              | ---            | 
 | Validado         |Histórico de compra e venda  | (default)    |
 | Nao  validado       | Tela de mensagem   | (default)       |
 
 
-**Enviar mensagem ao sistema**
+**Enviar mensagem para o sistema**
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
