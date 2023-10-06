@@ -31,6 +31,9 @@ Conforme diagrama apresentado, as entidades participantes da solução são:
 ![Diagrama de Entidade Relacionamento de Exemplo](images/ModeloDeDados.png)
 
 ### 4.4. Tecnologias
+![Diagrama de Tecnologia](images/Tecnologias.png)
+
+
 
 | **Dimensão**   | **Tecnologia**  |
 | ---            | ---             |
@@ -40,6 +43,8 @@ Conforme diagrama apresentado, as entidades participantes da solução são:
 | Log do sistema | Log4J           |
 | Teste          | JUnit           |
 | Deploy         | Github Pages    |
+|      Comunicação            | Discord            |
+|      Desenvolvimento     |  VSCode + Camunda + Draw.io            |
 
 
 ### 4.5. Guias de estilo
