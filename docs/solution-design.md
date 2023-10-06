@@ -77,12 +77,17 @@ O tipo de fonte apresentado no projeto sera: 'Poppins', sans-serif;
 
 ## Iconografia
 
-Defina os ícones que serão utilizados e suas respectivas funções.
+.icon-logo {color: #6A9159; /*Verde musgo/* border_radius: 30px;/*Levemente arredondado/* padding: 10px; } 
 
+.icon-buy { color: #6A9159; /*Verde musgo/*  padding: 10px; } 
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
+.icon-vender { color: #6A9159; /*Verde musgo/*  padding: 10px; } 
 
+.icon-denuncia  { color: #6A9159; /*Verde musgo/*  padding: 10px; }
+
+.login: color { #6A9159; /*Verde musgo/* border_radius: 30px;/*Levemente arredondado/* padding: 10px; }
+
+// Padrao de icone cor: #6A9159, padding: 10px, arredondamento: 30px,
 
 > **Links Úteis**:
 >
