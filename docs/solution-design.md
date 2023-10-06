@@ -2,9 +2,10 @@
 
 ### 4.1. Diagrama de classes
 
-![Diagrama de classes](images/classes.gif "Diagrama de classes")
+![Diagrama de classes TicketTrade](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade/assets/130700804/d02d5c91-7983-4a23-a708-3f0ea843dbd1)
 
-_Acrescente uma breve descrição sobre o diagrama apresentado. Descreva cada uma de suas classes._
+
+_O diagrama a seguir apresenta a composição de classes peliminar do nosso projeto. Conta com as classes Usuário que contem os dados principais dos usuários; as classes de rating e denúncia que tem as respectivas funções de avaliar e deununciar um usuário; a classe notificações que é responsavel por emitir as notificações necessárias; a classe ingresso que possui os dados fundementais do ingresso; a classe pagamento que possui os metodos necessários para possibilitar o pagamento; a classe TrocaTitularidade responsável por possiblilitar a troca de titularidade do ingresso e, enfim, a classe administrador que atua na administração, análise e verificação de disveros dados utilizados no software._
 
 ### 4.2. Diagrama de componentes
 
