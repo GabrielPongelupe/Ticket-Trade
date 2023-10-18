@@ -29,7 +29,7 @@ Conforme diagrama apresentado, as entidades participantes da solução são:
 
 ### 4.3. Modelo de dados
 
-![Diagrama de Entidade Relacionamento de Exemplo](images/ModeloDeDados.png)
+![Diagrama de Entidade Relacionamento de Exemplo](images/DIAGRAMADERELACIONAMENTO.drawio.png)
 
 ### 4.4. Tecnologias
 ![Diagrama de Tecnologia](images/Tecnologias.png)
