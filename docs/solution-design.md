@@ -76,16 +76,42 @@ Validação do ingresso
 
 ## Design
 
+**TELA INICIAL:**
 
 Logo: estará apresentada na parte superior esquerda da tela, conforme a imagem.
 
-Login: Canto superior Direito
+navbar: Canto superior, ao lado da logo (A logo e a navbar aparecerão em todas as telas do sistema)
 
-Venda de ingressos: Acessa aba para vender ingresso.
+Venda de ingressos: Acessa aba para vender ingresso. (apenas aba incial)
 
-Compra de ingressos: Acessa aba para comprar ingresso.
+Compra de ingressos: Acessa aba para comprar ingresso. (apenas aba incial)
 
-Denuncia: Acessa aba de denuncia de usuário.
+Denuncia: Acessa aba de denuncia de usuário. (apenas aba incial)
+
+
+
+**PESQUISA DE INGRESSOS:**
+
+Ingressos: ficaram na esquerda em forma de card
+
+
+
+**POSTAGEM DE INGRESSOS, CADASTRO E LOGIN:**
+
+Formulario, com todas as informações a serem preenchidas, no centro da tela
+
+
+
+**PAGAMENTOS DE INGRESSOS**
+
+Informações importantes como chave pix ou boleto ficaram no meio da tela
+
+Botão para proceguir logo em baixo das informações importantes
+
+
+
+
+
 
 
 ## Cores
@@ -97,9 +123,13 @@ Denuncia: Acessa aba de denuncia de usuário.
 
 O tipo de fonte apresentado no projeto sera: 'Poppins', sans-serif;
 
+Os títulos/logos estão no tamanho 36 pixels, os textos em botões estão em 18 e os paragrafos em tamanho padrão do HTML.
+
 ## Iconografia
 
-.icon-logo {color: #6A9159; /*Verde musgo/* border_radius: 30px;/*Levemente arredondado/* padding: 10px; } 
+**TELA INICIAL** (se aplicam a todas as telas com estes icones) 
+
+.icon-logo {color: #6A9159; /*Verde musgo/* border_radius: 20px; /*Levemente arredondado/* padding: 10px; width: 200px; }  
 
 .icon-buy { color: #6A9159; /*Verde musgo/*  padding: 10px; } 
 
@@ -109,7 +139,17 @@ O tipo de fonte apresentado no projeto sera: 'Poppins', sans-serif;
 
 .login: color { #6A9159; /*Verde musgo/* border_radius: 30px;/*Levemente arredondado/* padding: 10px; }
 
-// Padrao de icone cor: #6A9159, padding: 10px, arredondamento: 30px,
+
+**OUTRAS TELAS:**
+
+.estrelas_avaliacao {color: #FFFFFF; /*Branco*/ width: 120%; }
+
+.primeira_estrela {color: yellow; /*Cor amarelo*/}
+
+.botoes { border: 0; border-radius: 30px; /*Levemente arredondadado*/ padding: 10px 40px; font-size: 18px; font-weight: 600;
+background-color: #699158; cursor: pointer; transition: .2s;}
+
+// Padrao de icone color: #6A9159, padding: 10px, border_radius: 30px, 
 
 > **Links Úteis**:
 >
