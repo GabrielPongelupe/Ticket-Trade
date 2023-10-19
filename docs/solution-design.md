@@ -53,6 +53,36 @@ Conforme diagrama apresentado, as entidades participantes da solução são:
 
 ![Diagrama de componentes](images/HTMLeCSS.png)
 
+![Denuncia de usuário](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade/assets/130700804/9d7c5016-033d-4c94-bd97-bd72c5386986)
+
+![Compra de Ingressos](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade/assets/130700804/e3ecf58d-c188-439c-a8f9-db58b4bb6500)
+
+![Avaliação por rating](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade/assets/130700804/8b46a5b2-51b5-4574-b257-3c00388d078f)
+
+![Pagamento de ingresso](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade/assets/130700804/87aba7b7-f661-41a8-9ad4-171acd1eff33)
+
+![Através do boleto](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade/assets/130700804/afcaac69-c062-45db-a0fc-87aa1bad170e)
+
+![Através do PIX](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade/assets/130700804/fe55309a-e7b8-47ac-a39f-7de33bbbd4ce)
+
+![Cadastro](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade/assets/130700804/adf95865-9d44-42bd-a4b5-01e1384a4559)
+
+![Login](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade/assets/130700804/fb8e2152-fbd4-4716-bf62-0d37ddbb7806)
+
+![Cadastro do ingresso ](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade/assets/130700804/2f835e7d-f302-4294-bc02-a9e6b21735b3)
+
+![Validação do ingresso](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade/assets/130700804/dd0516f9-51a6-468d-9f6c-be8e34e793a0)
+
+
+
+
+
+
+
+
+
+
+
 ## Design
 
 
