@@ -33,7 +33,7 @@ Conforme diagrama apresentado, as entidades participantes da solução são:
 ![Diagrama de Entidade Relacionamento de Exemplo](images/tickettrade.png)
 
 ### 4.4. Tecnologias
-![Diagrama de Tecnologia](images/Tecnologias.png)
+
 
 
 
