@@ -10,15 +10,18 @@ Gerenciar Ponstagem - Contribui para o usuário, que deseja efetuar a compra ou 
 
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
-| Descrição       |  Caixa de Texto  | 240 caractéres           | (informe a descição)|
-| Preço           |  Número          | Números positivos         |    (informe o preço) |
-| Imagem do evento    |  Imagem  |     Imagem       |    null      |
+| Nome do Evento       |  Caixa de Texto  | Caracteres           | Nome do Evento|
+| Cidade      |  Caixa de Texto  |   Caracteres         | Cidade|
+| Data      |  Data  |     Data atual ou futura       | dd/mm/aaaa|
+| Preço           |  Número          | Números positivos         |    Valor |
+| Descrição       |  Caixa de Texto  | 240 caractéres           | Descrição (Limite 240 Caracteres)|
+
 
 | **Comandos**         |  **Destino**                                  | **Tipo**   |
 | ---                  | ---                            | ---               |
-| Cadastrar  Ingresso          | Iníciar o processo de cadastro de ingresso    |  (Botão)   |
-| Escolher imagem     | Biblioteca do usuário  |  (Botão)   |
-| Concluído  | Finalizar o processo de cadastro de ingresso  |  (Botão)   |
+| Cadastrar  Ingresso          | Página inicial    |  (Botão)   |
+| Escolher Arquivo     | Biblioteca do usuário  |  (Botão)   |
+
 
 
 
@@ -26,15 +29,15 @@ Gerenciar Ponstagem - Contribui para o usuário, que deseja efetuar a compra ou 
 
 | **Campo**       | **Tipo**                                  | **Restrições**         | **Valor default**          |
 | ---             | ---                                        | ---                    | ---               |
-| Busca ingresso  |  Caixa de Texto                           |      Número, Texto e Data                 | (insira o nome do ingresso)|
+| Nome do Evento |  Caixa de Texto                           |         Caracteres              | Nome do Evento|
+| Cidade      |  Caixa de Texto  |    Caracteres        | Cidade|
+| Data      |  Data  |     Data atual ou futura       | dd/mm/aaaa|
 | Tabela          |  Campo com todos os ingressos disponivéis |        Texto e Imagens                | null                   |      
-| Filtrar         |  Seleção múltipla  |        Seleçao                | null                    |
 
 
 | **Comandos**         |  **Destino**                               | **Tipo**        |
 | ---                  | ---                            | ---               |
 | Buscar               | Realiza a busca do ingresso                | (Botão)         |
-| Filtrar           | Realizar a filtragem              | (Botão)         |
 | Ver mais         | Acessar o ingresso escolhido          | (Botão)         |
 
 
