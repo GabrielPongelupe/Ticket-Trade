@@ -10,7 +10,6 @@ Avaliação e denúncia dos usuários - Este processo é usado para melhorar a s
 | **Comandos**         |  **Destino**                   | **Tipo** |
 | ---                  | ---                            | ---               |
 | Rating            | Inicio do preenchimento do rating        | default           |
-| Denuncia         | Inicio do preenchimento da denuncia       | default           |
 
 **Preencher sistema de rating**
 
@@ -21,6 +20,8 @@ Avaliação e denúncia dos usuários - Este processo é usado para melhorar a s
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Enviar     | Retorna ao historico de ingressos|          (default)         |
+| Cancelar    | Retorna ao historico de ingressos|          (default)         |
+| Denuncia    | Segue para a pagina de denuncia|          (default)         |
 
 
 
@@ -35,7 +36,7 @@ Avaliação e denúncia dos usuários - Este processo é usado para melhorar a s
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
 | Enviar     | Retorna ao historico de ingressos do cliente|   (default)                |
-| Concluir       | Pagina Inicial  |        (default)           |
+| cancelar      | Retorna para a página de ingresso |        (default)           |
 
 
 **Atribuir puniçao ao usuario denunciado e comunicá-lo**
