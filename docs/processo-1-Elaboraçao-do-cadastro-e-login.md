@@ -25,6 +25,7 @@ Elaboração do cadastro e login - facilita o controle de usuários e contribui 
 | Nome       | Caixa de Texto   | somente caracteres alfabéticos |   (null)             |
 | email         | Caixa de Texto   | formato de e-mail |         (null)       |
 | senha           | Caixa de Texto   | mínimo de 8 caracteres |     (null)      |
+| confirmar senha           | Caixa de Texto   | mínimo de 8 caracteres |     (null)      |
 | CPF             | Caixa de Texto   | 11 caracteres numéricos         |  (null)         |
 | Data de nascimento | Data        | Data Válida         |     (null)      |
 | Identidade       | Imagem        | Imagem        |     (null)      |
