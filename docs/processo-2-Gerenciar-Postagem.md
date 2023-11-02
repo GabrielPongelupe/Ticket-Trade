@@ -30,9 +30,21 @@ Gerenciar Ponstagem - Contribui para o usuário, que deseja efetuar a compra ou 
 | **Campo**       | **Tipo**                                  | **Restrições**         | **Valor default**          |
 | ---             | ---                                        | ---                    | ---               |
 | Nome do Evento |  Caixa de Texto                           |         Caracteres              | Nome do Evento|
-| Cidade      |  Caixa de Texto  |    Caracteres        | Cidade|
-| Data      |  Data  |     Data atual ou futura       | dd/mm/aaaa|
-| Tabela          |  Campo com todos os ingressos disponivéis |        Texto e Imagens                | null                   |      
+| Cidade      |  Caixa de Texto  |    Caracteres        |Cidade|
+| Data      |  Data  |     Data atual ou futura       |  dd/mm/aaaa|
+ 
+
+
+
+**Tabela de ingressos**
+
+| **Campo**       | **Tipo**                                  | **Restrições**         | **Valor default**          |
+| ---             | ---                                        | ---                    | ---               |
+| Nome Evento |  Caixa de Texto                           |         Caracteres              | Nome do Evento|
+| Cidade      |  Caixa de Texto  |    Caracteres        |  Cidade do Evento|
+| Data      |  Data  |     Data atual ou futura       | data do Evento|
+| Preço           |  Número          | Números positivos         |    Valor do Ingresso |
+| Evento        |  Imagem          | Imagem         |    Imagem do Ingresso |   
 
 
 | **Comandos**         |  **Destino**                               | **Tipo**        |
@@ -42,7 +54,16 @@ Gerenciar Ponstagem - Contribui para o usuário, que deseja efetuar a compra ou 
 
 
 
-**Acessar a pagina do ingresso escolhido**
+**Pagina do ingresso escolhido**
+
+| **Campo**       | **Tipo**                                  | **Restrições**         | **Valor default**          |
+| ---             | ---                                        | ---                    | ---               |
+| Nome do Evento |  Caixa de Texto                           |         Caracteres              | Nome do Evento|
+| Cidade      |  Caixa de Texto  |    Caracteres        | Cidade do Evento|
+| Data      |  Data  |     Data atual ou futura       | Data do Evento|
+ | Preço           |  Número          | Números positivos         |    Valor do Engresso |
+ | Imagem         |  Imagem          | Imagem         |    Imagem do Ingresso |
+| Descrição       |  Caixa de Texto  | 240 caractéres           | Descrição do Evento|
 
 | **Comandos**         |  **Destino**                               | **Tipo**        |
 | ---                  | ---                            | ---               |
