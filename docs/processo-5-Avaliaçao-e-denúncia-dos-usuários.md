@@ -16,6 +16,7 @@ Avaliação e denúncia dos usuários - Este processo é usado para melhorar a s
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
 | Avaliaçao         | Seleçao única   | 1 a 5 estrelas | (null)         |
+| Detalhes         | Caixa de Texto  | maximo 240 caracteres | (null)         |
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
@@ -30,7 +31,6 @@ Avaliação e denúncia dos usuários - Este processo é usado para melhorar a s
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
 | Denuncia          | Caixa de Texto   | maximo de 240 caracteres | (null)|
-| Ingresso      | Imagem  | .jpg | imagem do ingresso|
 
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
@@ -44,7 +44,7 @@ Avaliação e denúncia dos usuários - Este processo é usado para melhorar a s
 | **Campo**       | **Tipo**         | **Restrições** | **Valor default** |
 | ---             | ---              | ---            | ---               |
 | Mensagem          | Caixa de Texto   | maximo de 240 caracteres | (null)|
-
+| Denuncia        | Caixa de Texto   | maximo de 240 caracteres | (denuncia previamente enviada)|
 
 | **Comandos**         |  **Destino**                   | **Tipo**          |
 | ---                  | ---                            | ---               |
