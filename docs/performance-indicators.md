@@ -3,13 +3,12 @@
 
 | **Indicador** | **Objetivos** | **Descrição** | **Fonte dados** | **Perspectiva** |
 | ---           | ---           | ---           | ---             | ---             |
-| Percentual clientes cadastrados | Avaliar o numero de clientes cadastrados | Calcular a variação número de clientes cadastrados mensalmente | Tabela de Usuários  | Aprendizado e Crescimento |
-| Aumento do número de ingressos vendidos | Avaliar o número de unidades de ingressos vendidos | Calcular a variação do número de unidades de ingresso vendidos mensalmente | Tabela de Venda ** |  Financeira |
-| Preferência entre boleto e PIX | Entender a preferência dos clientes no que consta o método de pagamento | Comparar o número de pagamentos feitos usando PIX ou boleto semestralmente | Tabela Compra ** | Cliente |
-| Taxa de erro no processo de Pagamento | Avaliar o número de erros no processo de pagamento | Calcular a percentual de erros no pagamento e relação ao numero de pagamentos total efetuados mensalmente | Tabela Compra ** | Aprendizado e Crescimento|
-| Taxa de variação de lucro líquido | Verificar a variação de lucro líquido | Calcular a variação do lucro líquido mensalmente | Tabela Compra ** | Financeira |
-| Taxa de variação do número de denúncias | Verificar a variação do número de denúncias | Calcular a variação do número de denúncias mensalmente | Tabela Denúncia ** | Processos Internos |
-| Taxa de sucesso na troca de títularidade | Verificar a taxa de sucesso na troca de títularidade | Calcular a taxa de sucesso na troca de títularidade mensalmente | Tabela Notificação ** | Processos Internos |
+| Percentual clientes cadastrados | Calcular o aumento do número de clientes cadastrados para avaliar o crescimento do site | Calcular o aumento ou diminuição do número de clientes cadastrados mensalmente (30 dias)| Tabela de Usuários  | Aprendizado e Crescimento |
+| Aumento do número de ingressos vendidos | Calcular o número de unidades de ingressos vendidos para avaliar o crescimento do site | Calcular o aumento ou diminuição  do número de unidades de ingresso vendidos mensalmente (30 dias) | Tabela de Venda  |  Financeira |
+| Taxa de erro no processo de Pagamento | Calcular o número de erros no processo de pagamento | Calcular o número de pagamentos que resultaram em erro em relação ao numero de pagamentos totais efetuados mensalmente (30 dias) | Tabela Compra  | Aprendizado e Crescimento|
+| Taxa de variação de lucro líquido | Verificar o lucro líquido obtido  para avaliar o crescimento do site | Calcular o lucro líquido mensalmente (30 dias) | Tabela Compra  | Financeira |
+| Taxa de variação do número de denúncias | Verificar o número de denúncias para avaliar a comunidade de clientes e vendedores do site| Calcular o número de denúncias mensalmente (30 dias)| Tabela Denúncia | Processos Internos |
+| Número de vendas concluidas com sucesso | Calcular o número de vendas concluidas com sucesso para verificar o funcinamento do site | o número de vendas concluidas com sucesso mensalmente (30 dias) | Tabela Venda  | Processos Internos |
 
 
 
