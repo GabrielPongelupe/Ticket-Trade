@@ -1,0 +1,215 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "description": "projeto",
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": 1,
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "datasource": {
+        "type": "mysql",
+        "uid": "db2bcbe8-37d1-492b-b245-8f2e9571d7a8"
+      },
+      "description": "1",
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "continuous-GrYlRd"
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": null
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {
+        "displayMode": "basic",
+        "minVizHeight": 10,
+        "minVizWidth": 0,
+        "namePlacement": "auto",
+        "orientation": "horizontal",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        },
+        "showUnfilled": true,
+        "valueMode": "color"
+      },
+      "pluginVersion": "10.2.2",
+      "targets": [
+        {
+          "dataset": "tickettrade",
+          "datasource": {
+            "type": "mysql",
+            "uid": "db2bcbe8-37d1-492b-b245-8f2e9571d7a8"
+          },
+          "editorMode": "builder",
+          "format": "table",
+          "rawSql": "SELECT COUNT(CHAVE_PIX), COUNT(CPF), COUNT(DATA_DE_NASCIMENTO), COUNT(EMAIL), COUNT(NOME), COUNT(RATING), COUNT(RG), COUNT(SENHA), COUNT(USUARIO_ID) FROM tickettrade.usuario LIMIT 50 ",
+          "refId": "A",
+          "sql": {
+            "columns": [
+              {
+                "name": "COUNT",
+                "parameters": [
+                  {
+                    "name": "CHAVE_PIX",
+                    "type": "functionParameter"
+                  }
+                ],
+                "type": "function"
+              },
+              {
+                "name": "COUNT",
+                "parameters": [
+                  {
+                    "name": "CPF",
+                    "type": "functionParameter"
+                  }
+                ],
+                "type": "function"
+              },
+              {
+                "name": "COUNT",
+                "parameters": [
+                  {
+                    "name": "DATA_DE_NASCIMENTO",
+                    "type": "functionParameter"
+                  }
+                ],
+                "type": "function"
+              },
+              {
+                "name": "COUNT",
+                "parameters": [
+                  {
+                    "name": "EMAIL",
+                    "type": "functionParameter"
+                  }
+                ],
+                "type": "function"
+              },
+              {
+                "name": "COUNT",
+                "parameters": [
+                  {
+                    "name": "NOME",
+                    "type": "functionParameter"
+                  }
+                ],
+                "type": "function"
+              },
+              {
+                "name": "COUNT",
+                "parameters": [
+                  {
+                    "name": "RATING",
+                    "type": "functionParameter"
+                  }
+                ],
+                "type": "function"
+              },
+              {
+                "name": "COUNT",
+                "parameters": [
+                  {
+                    "name": "RG",
+                    "type": "functionParameter"
+                  }
+                ],
+                "type": "function"
+              },
+              {
+                "name": "COUNT",
+                "parameters": [
+                  {
+                    "name": "SENHA",
+                    "type": "functionParameter"
+                  }
+                ],
+                "type": "function"
+              },
+              {
+                "name": "COUNT",
+                "parameters": [
+                  {
+                    "name": "USUARIO_ID",
+                    "type": "functionParameter"
+                  }
+                ],
+                "type": "function"
+              }
+            ],
+            "groupBy": [
+              {
+                "property": {
+                  "type": "string"
+                },
+                "type": "groupBy"
+              }
+            ],
+            "limit": 50
+          },
+          "table": "usuario"
+        }
+      ],
+      "title": "INDICADOR 1",
+      "type": "bargauge"
+    }
+  ],
+  "refresh": "",
+  "schemaVersion": 38,
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-6h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "tickettrade",
+  "uid": "a97813aa-5279-4b00-89bc-5171ee628ad7",
+  "version": 1,
+  "weekStart": ""
+}
