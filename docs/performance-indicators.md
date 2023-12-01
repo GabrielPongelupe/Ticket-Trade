@@ -10,7 +10,5 @@
 | Taxa de variação do número de denúncias | Verificar o número de denúncias para avaliar a comunidade de clientes e vendedores do site| Calcular o número de denúncias mensalmente (30 dias)| Tabela Denúncia | Processos Internos |
 | Número de vendas concluidas com sucesso | Calcular o número de vendas concluidas com sucesso para verificar o funcinamento do site | o número de vendas concluidas com sucesso mensalmente (30 dias) | Tabela Venda  | Processos Internos |
 
-## GRAFICO INDICADOR 1
-![image](images/Screenshot_10.png)
 
 
