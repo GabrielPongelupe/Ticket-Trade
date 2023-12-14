@@ -139,7 +139,21 @@ A sessão a seguir apresenta a descrição dos testes de unidade e testes de usa
 
 ## 8. Conclusão
 
-_Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, onde se verifica as observações pessoais de cada aluno. Poderá também apresentar sugestões de novas linhas de estudo._
+O curso de Engenharia de Software possibilitou a criação do TicketTrade, um software destinado à facilitar a compra e venda de ingressos entre os usuários. O principal objetivo era oferecer uma solução eficaz para tornar didático, simples e seguro as operaçoes relacionadas ao ambiente do entretenimento, como a busca de ingressos, postagem dos mesmos, transferencias de titularidade, confiabilidade e integridade.
+
+Todos os integrantes tiveram chances de contribuir de maneira significativa para o projeto, saindo da zona de conforto e explorando as mais diversas tecnologias e plataformas. O grupo superou adversidades e desafios tecnológicos como uma equipe e obteve resultados que superaram expectativas.
+
+Durante o projeto, foram utilizadas tecnologias de frontend e backend. No frontend foram utilizados HTML, CSS e JavaScript, para desenvolver uma interface estética e amigável. No backend, foram utilizados MySQL e Java SpringBoot para implementar as funcionalidades e integrar com o banco de dados.
+
+Após a conclusao do software foi possível notar sua capacidade de otimizar o processo de compra e venda de ingressos em todos os sentidos dos processos, assegurando uma otima experiencia ao usuário. Os testes realizados foram concluídos com sucesso e nao apresentaram instabilidade notória, conseguindo realizar todas as funçoes designadas.
+
+Algumas possíveis melhorias foram identificadas pela equipe: 
+1. Integraçao com sistemas bancários, para ampliar as opçoes de pagamento.
+2. Desenvolvimento da interface acessada pelo usuário, tornando-a mais estética e funcional.
+3. Atribuir maior segurança ao sistema de login, utilizando o JavaSecurity.
+4. Aprimorar o sistema de validaçao, automatizando o processo diretamente pelo software.
+
+Finalmente, o desenvolvimento contribuiu de forma significativa para a aplicaçao dos conhecimentos adquiridos ao longo dos dois períodos do curso de Engenharia de Software, permitindo uma visao que simula a realidade de um ambiente corporativo e as responsabilidades que o mesmo traz. Além disso, as habilidades e tecnicas de programaçao de todo o grupo foram testadas ao limite, juntamente com a aptidao de trabalho em equipe e colaboraçao.
 
 # REFERÊNCIAS
 
