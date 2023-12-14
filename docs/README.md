@@ -32,8 +32,7 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade Cató
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+_**Resumo**. O TicketTrade, resultado de um projeto de Engenharia de Software, surge como uma solução inovadora no mercado de ingressos. Com a capacidade de otimizar todo o processo de transação de ingressos, o software garante uma experiência excepcional ao usuário. Considerando o cenário atual do Brasil, onde a demanda por ingressos para eventos tem aumentado significativamente, o TicketTrade tem o potencial de transformar o mercado de ingressos, preenchendo uma lacuna significativa na existência de uma plataforma dedicada e otimizada para a revenda de ingressos. A estabilidade e funcionalidade do software foram confirmadas através de testes bem-sucedidos, destacando seu potencial para explorar este nicho de mercado em crescimento.
 
 ---
 
