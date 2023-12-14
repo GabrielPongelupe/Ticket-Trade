@@ -18,7 +18,7 @@ O projeto TicketTrade é um software desenvolvido para a disciplina “Trabalho 
 * Juliana Amaral Baroni de Carvalho 
 * Eveline Alonso Veloso 
 
-## Instruções de utilização
+## Instruções de utilização/implantação
 Para usufruir de todas as funcionalidades e ter uma ótima experiencia no software, você pode seguir os passos a seguir:
 
 **Baixar o repositório:**
