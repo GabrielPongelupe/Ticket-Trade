@@ -38,9 +38,8 @@ keywords:
   - "Modelagem de Processos de Negócios"
   - "Banco de Dados"
   - "Backend e Frontend"
-message: |
-    "If you use this software, please cite it using these metadata.
-    Se você utilizar este software, por favor cite-o utilizando estes metadados."
+  - "Ingresso"
+
 repository-code: "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade"
 title: "TicketTrade"
 abstract: | 
