@@ -6,7 +6,7 @@ Os principais documentos produzidos foram:
 
 
 * [`Entity-Relation Diagram`]([DER.erd])
-	* Apresenta o DER em arquivo editável no formato compatível com a ferramenta utilizada pela equipe.
+	* Apresenta o DER em arquivo  no formato compatível com a ferramenta utilizada pela equipe.
 
 * [`database_creation_script.sql`](database_creation_script.sql)
 	* Script de criação do banco de dados.
