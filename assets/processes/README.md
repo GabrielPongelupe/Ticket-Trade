@@ -1,10 +1,10 @@
 # Lista dos processos de negócio do sistema
 
-* [`processo-1-Elaboraçao-do-cadastro-e-login.md`](plf-es-2023-2-ti2-1372100-tickettrade/docs/processo-1-Elaboraçao-do-cadastro-e-login.md) - Elaboração do cadastro e login - facilita o controle de usuários e contribui para o sistema de rating e denúncias funcionarem efetivamente.
-* [`agendar.bpmn`]() - Gerenciar postagem.
-* [`entregar.bpmn`]() - Pagamento do ingresso.
-* [`entregar.bpmn`]() - Retençao do pagamento.
-* [`entregar.bpmn`]() - Avaliaçao e denúncia dos usuários.
-* [`entregar.bpmn`]() - Validaçao do ingresso.
+* [`processo-1-Elaboraçao-do-cadastro-e-login.md`]() - Elaboração do cadastro e login 
+* [`processo-2-Gerenciar-Postagem.md`]() - Gerenciar Ponstagem 
+* [`processo-3-Pagamento-do-ingresso.md`]() - Pagamento do ingresso.
+* [`processo-4-Retençao-do-pagamento.md`]() - Retençao do pagamento.
+* [`processo-5-Avaliaçao-e-denúncia-dos-usuários.md`]() - Avaliaçao e denúncia dos usuários.
+* [`processo-6-Validaçao-do-ingresso.md`]() - Validaçao do ingresso.
 
 
