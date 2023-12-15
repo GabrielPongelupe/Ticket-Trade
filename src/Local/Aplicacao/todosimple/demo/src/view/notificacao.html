@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="css/notificacao.css">
+
+    
+
+    <script src="Script/processo4e6.js"></script>
+
+    <title>Notificação Usuário Tt</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="Imagens/Logo.png">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="Pagina Inicial.html">Início</a></li>
+               
+                    <li><a href="Pagina Inicial.html#sobre-nos">Sobre</a></li>
+                    <li><a href="Historico.html">Historico</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Login</button>
+                </a>
+            </div><!--btn-contato-->
+        </div>
+    </header>
+
+    <div class="quadrado-verde">
+        <h3>Enviar Notificação para usuário</h3>
+        <form class="formulario-contato">
+            <input type="text" placeholder="Nome de Usuário com id">
+            <label for="status" class="label-negrito">Tipo de Notificação:</label>
+            <select id="status" name="status">
+                <option value="pagamento-aprovado">Pagamento aprovado</option>
+                <option value="pagamento-recebido">Pagamento recebido</option>
+                <option value="punicao">Punição</option>
+            </select>
+            <button type="submit" onclick="sendButon()">Enviar</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="company-info">
+                        <h4>TickeTrade</h4>
+                        <p>Seu parceiro confiável para compra de ingressos.</p>
+                    </div>
+                    <div class="contact-info">
+                        <h4>Conecte-se Conosco</h4>
+                        <!-- Adicione os ícones e links para as redes sociais da TickeTrade -->
+                        <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contato@ticke-trade.com">contato@ticke-trade.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+    
+
+</body>
+
+</html>

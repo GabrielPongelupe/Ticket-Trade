@@ -1,0 +1,256 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.hrefdiv{
+    text-decoration: none;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #699158;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #699158;
+}
+
+button:hover,
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #699158;
+    transform: scale(1.05);
+}
+
+/* ESTILO DO CABEÇALHO */
+header {
+    padding: 40px 4%;
+}
+
+header>.interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* POP-UP */
+
+
+
+/* Mantenha o CSS existente */
+
+/* Estilo do formulário */
+/* Estilo do formulário */
+.quadrado-verde {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-width: 300px;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1; /* Garante que o quadrado verde esteja acima do conteúdo abaixo */
+    outline: 1px solid #699158;
+}
+
+.quadrado-verde h3 {
+    color: #699158; /* Título em branco */
+}
+
+.formulario-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #699158; /* Texto verde */
+}
+
+.formulario-contato input,
+.formulario-contato select {
+    padding: 10px;
+    border: 1px solid #699158; /* Borda verde */
+    border-radius: 5px;
+    color: #699158; /* Texto verde */
+    background-color: #000000; /* Fundo preto */
+}
+
+.formulario-contato select {
+    background-color: #000;
+}
+
+.formulario-contato button {
+    background-color: #000000; /* Fundo preto */
+    color: #699158; /* Texto verde */
+    border: 1px solid #699158; /* Borda verde */
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.formulario-contato button:hover {
+    background-color: #699158; /* Fundo verde ao passar o mouse */
+    color: #000000; /* Texto preto ao passar o mouse */
+}
+
+
+/* Estilo do Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px; /* ou ajuste conforme necessário */
+    background-color: #000; /* cor de fundo do seu footer */
+    color: #fff; /* cor do texto do seu footer */
+}
+
+footer h4 {
+    color: #699158;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .company-info,
+footer .social-media {
+    flex: 1;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid #699158;
+}
+
+footer .line-footer p i {
+    color: #699158;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+}
+
+@media screen and (max-width: 1020px) {
+    /* Adicione estilos específicos para telas menores, se necessário */
+}
+
+footer .social-media {
+    flex: 1;
+    margin-left: auto;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+footer .contact-info {
+    text-align: right;
+}
+
+footer .contact-info h4 {
+    color: #699158;
+}
+
+footer .contact-info a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer .contact-info a i {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+footer .contact-info a.instagram,
+footer .contact-info a.twitter,
+footer .contact-info a.facebook {
+    color: #fff;
+}
+
+.btn-contato button {
+    color: #fff; /* Adicione esta linha para definir a cor do texto para branco */
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #699158;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}

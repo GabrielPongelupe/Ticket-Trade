@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="css/processo1.css">
+
+
+    
+
+    <title>Tiket Trade</title>
+</head>
+
+<body >
+
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="Imagens/Logo.png">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="Pagina Inicial.html">Início</a></li>
+                    <li><a href="Pagina Inicial.html#sobre-nos">Sobre</a></li>
+                    <li><a href="Historico.html">Historico</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="login.html">
+                    <button>Login</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+        
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Histórico</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+
+
+    <main>
+        <div class="container">
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Cadastre-se</h1>
+                        </div>
+                        <div class="login-button">
+                            
+                        </div>
+                    </div>
+
+                <div class="imput-group">
+
+                     <div class="imput-box">
+                        <label for="firstname">Nome</label>
+                        <input id="name" type="text" name="fitstname" placeholder="Seu Nome" required>
+                    </div>
+
+                    <div class="imput-box">
+                        <label for="email">Seu email</label>
+                        <input id="email" type="email" name="email" placeholder="Seu email" required>
+                    </div>
+
+                    <div class="imput-box">
+                        <label for="CPF">Seu CPF</label>
+                        <input id="CPF" type="text" name="CPF" placeholder="000.000.000.00" required>
+                    </div>
+
+                    <div class="imput-box">
+                        <label for="datanasc">Data de Nascimento</label>
+                        <input id="datanasc" type="text" name="datanasc" placeholder="DD/MM/AAAA" required>
+                    </div>
+
+                    <div class="imput-box">
+                        <label for="pix">Seu rg</label>
+                        <input id="rg" type="text" name="rg" placeholder="Seu rg" required>
+                    </div>
+
+                    <div class="imput-box">
+                        <label for="pix">Sua chave pix</label>
+                        <input id="pix" type="text" name="pix" placeholder="Chave PIX" required>
+                    </div>
+
+                    <div class="imput-box">
+                        <label for="password">Sua senha</label>
+                        <input id="password" type="password" name="password" placeholder="Sua senha" required>
+                    </div>
+
+
+
+                   <div class="continue-button">
+                    <button onclick="iniciarCadastro(event)"><a >Concluir Cadastro</a></button>
+                   </div>
+
+
+                </form>
+            </div>
+            
+        </div>
+        
+
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="company-info">
+                        <h4>TickeTrade</h4>
+                        <p>Seu parceiro confiável para compra de ingressos.</p>
+                    </div>
+                    <div class="contact-info">
+                        <h4>Conecte-se Conosco</h4>
+                        <!-- Adicione os ícones e links para as redes sociais da TickeTrade -->
+                        <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contato@ticke-trade.com">contato@ticke-trade.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+
+    <script src="Script/script.js"></script>
+
+</body>
+</html>

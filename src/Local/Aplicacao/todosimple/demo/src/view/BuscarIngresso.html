@@ -1,0 +1,189 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/buscarIngressos.css">
+    <title>Tiket Trade</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="Imagens/Logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="Pagina Inicial.html">Início</a></li>
+                    <li><a href="Pagina Inicial.html#sobre-nos">Sobre</a></li>
+                    <li><a href="Historico.html">Historico</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="Pagina Inicial.html">
+                    <button>Voltar</button>
+                </a>
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="Historico.html">Historico</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+    </header>
+   
+    <div class="buscar">
+        <h1>Busca de Ingressos</h1>
+        <form id="buscaIngressoForm">
+            <input type="text" id="nomeEventoInput" placeholder="Nome do Evento" oninput="filterTable()">
+            <button onclick="filterTable()">Buscar</button>
+        </form>
+    </div>
+    
+
+    <div class="tabela-datas" id="tabelaDatas">
+        <table id="tabelaIngressos">
+            <tr>
+                <th>Evento</th>
+                <th>Nome Evento</th>
+                <th>Data</th>
+                <th>Valor</th>
+                <th>Pagina Do Ingresso</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="Imagens/RogerW.jpeg" alt="Imagem do Evento">
+                </td>
+                <td class="description1"></td>
+                <td class="data1"></td>
+                <td class="valor1"></td>
+                <td> 
+                    <a href="PaginaIngresso.html" class="botaoEstilizado" id="1">Ver Mais</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="Imagens/RogerW.jpeg" alt="Imagem do Evento">
+                </td>
+                <td class="description2"></td>
+                <td class="data2"></td>
+                <td class="valor2"></td>
+                <td> 
+                    <a href="PaginaIngresso.html" class="botaoEstilizado" id="2">Ver Mais</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="Imagens/RogerW.jpeg" alt="Imagem do Evento">
+                </td>
+                <td class="description3"></td>
+                <td class="data3"></td>
+                <td class="valor3"></td>
+                 
+                <td> 
+                    <a href="PaginaIngresso.html" class="botaoEstilizado" id="3">Ver Mais</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="Imagens/RogerW.jpeg" alt="Imagem do Evento">
+                </td>
+                <td class="description4"></td>
+                <td class="data4"></td>
+                <td class="valor4"></td>
+                 
+                <td> 
+                    <a href="PaginaIngresso.html" class="botaoEstilizado" id="4">Ver Mais</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="Imagens/RogerW.jpeg" alt="Imagem do Evento">
+                </td>
+                <td class="description5"></td>
+                <td class="data5"></td>
+                <td class="valor5"></td>
+                 
+                <td> 
+                    <a href="PaginaIngresso.html" class="botaoEstilizado" id="5">Ver Mais</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="Imagens/RogerW.jpeg" alt="Imagem do Evento">
+                </td>
+                <td class="description6"></td>
+                <td class="data6"></td>
+                <td class="valor6"></td>
+                 
+                <td> 
+                    <a href="PaginaIngresso.html" class="botaoEstilizado" id="6">Ver Mais</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="Imagens/RogerW.jpeg" alt="Imagem do Evento">
+                </td>
+                <td class="description7"></td>
+                <td class="data7"></td>
+                <td class="valor7"></td>
+                 
+                <td> 
+                    <a href="PaginaIngresso.html" class="botaoEstilizado" id="7">Ver Mais</a>
+                </td>
+            </tr>
+
+            
+        </table>
+    </div>
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="company-info">
+                        <h4>TickeTrade</h4>
+                        <p>Seu parceiro confiável para compra de ingressos.</p>
+                    </div>
+                    <div class="contact-info">
+                        <h4>Conecte-se Conosco</h4>
+                        <!-- Adicione os ícones e links para as redes sociais da TickeTrade -->
+                        <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contato@ticke-trade.com">contato@ticke-trade.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+
+    <script src="Script/processo2.js"></script>
+
+    
+</body>
+
+
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/processo2.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <title>Tiket Trade</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="Imagens/Logo.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="Pagina Inicial.html">Início</a></li>
+                    <li><a href="Pagina Inicial.html#sobre-nos">Sobre</a></li>
+                    <li><a href="Historico.html">Historico</a></li>
+                </ul>
+            </nav>
+            <div class="btn-contato">
+                <a href="Pagina Inicial.html">
+                    <button>Voltar</button>
+                </a>
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Historico</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div>
+    </header>
+   
+    </div>
+    <div class="form">
+      <h2>Insira os Dados do Ingresso que Deseja Vender</h2>
+      <input type="text" id="description" name="nomeEvento" placeholder="Nome do Evento">
+      <input type="date" id="data" name="data"  placeholder="Data">
+      <input type="text" id="valor" name="valor" placeholder="Valor">
+      
+
+      <input type="file" name="imagem" accept="image/*">
+      <button onclick="cadastrarIngresso(event)">Concluir cadastro do ingresso</button>
+  </div>
+  
+  <div class="mensagem" id="mensagem">
+    Ingresso Cadastrado com Sucesso!
+</div>
+<footer>
+    <div class="interface">
+        <div class="line-footer">
+            <div class="flex">
+                <div class="company-info">
+                    <h4>TickeTrade</h4>
+                    <p>Seu parceiro confiável para compra de ingressos.</p>
+                </div>
+                <div class="contact-info">
+                    <h4>Conecte-se Conosco</h4>
+                    <!-- Adicione os ícones e links para as redes sociais da TickeTrade -->
+                    <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div><!--line-footer-->
+
+        <div class="line-footer borda">
+            <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contato@ticke-trade.com">contato@ticke-trade.com</a></p>
+        </div><!--line-footer-->
+    </div><!--interface-->
+</footer>
+    <script src="Script/cadastroIngresso.js"></script>
+    
+</body>
+</html>

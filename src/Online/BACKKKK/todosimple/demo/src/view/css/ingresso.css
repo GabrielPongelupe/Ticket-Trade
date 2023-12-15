@@ -1,0 +1,578 @@
+/* Reset de Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #699158;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #699158;
+}
+
+button:hover,
+form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #699158;
+    transform: scale(1.05);
+}
+
+/* Estilo do Cabeçalho */
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav.menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav.menu-desktop ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* Estilo do Menu Mobile */
+.btn-abrir-menu {
+    display: none;
+}
+
+.btn-abrir-menu i {
+    color: #699158;
+    font-size: 40px;
+}
+
+.menu-mobile {
+    background-color: #000;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99999;
+    width: 0%;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.menu-mobile.abrir-menu {
+    width: 70%;
+}
+
+.menu-mobile.abrir-menu ~ .overlay-menu {
+    display: block;
+}
+
+.menu-mobile .btn-fechar {
+    padding: 20px 5%;
+}
+
+.menu-mobile .btn-fechar i {
+    color: #699158;
+    font-size: 30px;
+}
+
+.menu-mobile nav ul {
+    text-align: right;
+}
+
+.menu-mobile nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 8%;
+    display: block;
+}
+
+.menu-mobile nav ul li a:hover {
+    background-color: #699158;
+    color: #000;
+}
+
+.overlay-menu {
+    background-color: #000000df;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 88888;
+    display: none;
+}
+
+/* Estilo do Topo do Site */
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
+    color: #fff;
+    font-size: 42px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: #699158;
+}
+
+.topo-do-site .txt-topo-site p {
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+/* Estilo da Formulário */
+.form {
+    width: 400px; /* Largura definida */
+    background-color: #699158; /* Cor do botão Login */
+    margin: 40px auto 0; /* Centralizando e adicionando margem superior */
+    border-radius: 10px; /* Adicionando bordas arredondadas */
+    text-align: center; /* Centralizando o conteúdo dentro do quadrado */
+    padding: 20px; /* Adicionando um pouco de espaço interno */
+    box-sizing: border-box; /* Garantindo que a largura inclua o padding e a borda */
+    color: #fff;
+}
+
+
+.form h2 {
+    color: #fff; /* Texto branco */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.form input,
+.form button {
+    margin: 10px 0; /* Adicionando um pouco de espaço entre os elementos */
+    width: calc(100% - 20px); /* Definindo a largura dos inputs e botão */
+    padding: 10px; /* Adicionando um pouco de espaço interno nos inputs e botão */
+    border: none; /* Removendo a borda dos inputs e botão */
+    border-radius: 5px; /* Adicionando bordas arredondadas aos inputs e botão */
+    box-sizing: border-box; /* Garantindo que a largura inclua o padding */
+
+}
+
+.form input[type="number"]::before {
+    content: "R$"; /* Adicionando o símbolo de R$ antes do campo de número */
+    position: absolute;
+    margin: 10px;
+}
+
+.form button {
+    background-color: #000000;
+    color: #fff
+}
+
+.error-message {
+    color: #ff0000; /* Cor vermelha para a mensagem de erro */
+    font-size: 12px; /* Tamanho da fonte da mensagem de erro */
+}
+
+
+
+@media only screen and (max-width: 767px) {
+
+    /* Reset de Estilos Gerais para Telas Pequenas */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    /* Estilo do Cabeçalho para Telas Pequenas */
+    header {
+        padding: 20px 4%;
+    }
+
+    header nav.menu-desktop ul li {
+        padding: 0 20px;
+    }
+
+    /* Estilo do Menu Mobile para Telas Pequenas */
+    .btn-abrir-menu {
+        display: block;
+    }
+
+    .menu-mobile.abrir-menu {
+        width: 100%;
+    }
+
+    .menu-mobile .btn-fechar {
+        padding: 20px 4%;
+    }
+
+    .menu-mobile nav ul {
+        text-align: left;
+    }
+
+    .menu-mobile nav ul li a {
+        font-size: 18px;
+        padding: 15px 4%;
+    }
+
+    .overlay-menu {
+        background-color: #000000df;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 88888;
+        display: none;
+    }
+
+    /* Estilo do Topo do Site para Telas Pequenas */
+    section.topo-do-site {
+        padding: 20px 4%;
+    }
+
+    section.topo-do-site .flex {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .topo-do-site h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .topo-do-site .txt-topo-site p {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+
+    .topo-do-site .img-topo-site img {
+        animation: none;
+    }
+
+    /* Estilo da Formulário para Telas Pequenas */
+    .form {
+        width: 100%;
+        background-color: #699158;
+        margin: 20px auto 0;
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .form h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .form input,
+    .form button {
+        width: calc(100% - 20px);
+    }
+
+    .form input[type="number"]::before {
+        content: "R$";
+        position: initial;
+        margin: 0;
+    }
+
+    #tabelaIngressos th:nth-child(3), #tabelaIngressos td:nth-child(3),
+    #tabelaIngressos th:nth-child(4), #tabelaIngressos td:nth-child(4),
+    #tabelaIngressos th:nth-child(5), #tabelaIngressos td:nth-child(5) {
+        display: none;
+    }
+    .ing {
+        width: 100%;
+        background-color: #699158;
+        margin: 20px auto 0;
+        border-radius: 10px;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        outline:  1px solid #699158 ;
+    }
+
+    .form h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .form input,
+    .form button {
+        width: calc(100% - 20px);
+        
+    }
+
+    .form input[type="number"]::before {
+        content: "R$";
+        position: initial;
+        margin: 0;
+    }
+
+
+
+
+
+    
+    ing {
+        width: 100%; /* Ocupa a largura total em telas menores */
+        margin: 20px auto 0;
+    }
+   
+    
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+    .interface {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        order: 1; /* Move a logo para o início do layout */
+    }
+
+    .btn-contato {
+        order: 3; /* Move o botão "Perfil" para o final do layout */
+    }
+
+    header nav.menu-desktop {
+        display: none;
+    }
+
+    .btn-abrir-menu {
+        display: block;
+    }
+}
+
+
+
+
+
+  /*Ingresso*/
+  .ing {
+    max-width: 500px; /* Largura máxima para telas maiores */
+    margin: 40px auto 0;
+    background-color: #000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    color: 699158;
+    border-color:#699158 ;
+    outline: 1px solid #699158;
+}
+
+.ing img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.ing h1 {
+    margin-bottom: 20px;
+}
+
+.ing input,
+.ing button {
+    margin: 10px 0;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: 1px solid #699158;
+}
+
+.ing button {
+    background-color: #000;
+    color: #699158;
+    cursor: pointer;
+}
+
+.ing h2 {
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.ing p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px; /* Reduzido o tamanho de fonte para dispositivos móveis */
+    text-align: left;
+}
+
+
+
+footer {
+    padding: 40px 4%;
+    background-color: #000000;
+    color: #fff;
+}
+
+footer h4 {
+    color: #699158;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .company-info,
+footer .social-media {
+    flex: 1;
+}
+
+footer .social-media a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid #699158;
+}
+
+footer .line-footer p i {
+    color: #699158;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+}
+
+@media screen and (max-width: 1020px) {
+    /* Adicione estilos específicos para telas menores, se necessário */
+}
+
+footer .social-media {
+    flex: 1;
+    margin-left: auto; /* Isso empurra o bloco para a direita */
+}
+
+footer .social-media a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+
+/* Adicione este ajuste ao seu arquivo de estilo (processo5.css) */
+
+footer .contact-info {
+    text-align: right; /* Alinha o bloco à direita */
+}
+
+footer .contact-info h4 {
+    color: #699158;
+}
+
+footer .contact-info a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block; /* Para centralizar o ícone */
+    margin-right: 10px;
+}
+
+footer .contact-info a i {
+    font-size: 24px; /* Tamanho do ícone */
+    vertical-align: middle; /* Alinha verticalmente com o texto */
+}
+
+footer .contact-info a.instagram {
+    color: #fff; /* Cor do ícone do Instagram */
+}
+
+footer .contact-info a.twitter {
+    color: #fff; /* Cor do ícone do Twitter */
+}
+
+.btn-contato button {
+    color: #fff; /* Adicione esta linha para definir a cor do texto para branco */
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #699158;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
