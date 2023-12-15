@@ -1,15 +1,8 @@
 ## 7. Testes da solução
 
-Nesta sessão são apresentados os dois tipos de testes realizados:
-
- - O **Teste de Unidade**, que utiliza uma abordadem de caixa preta, e tem por objetivo verificar a conformidade do software com os requisitos funcionais e não funcionais do sistema.
- - O **Teste de Usabilidade**, que busca avaliar a qualidade do uso do sistema por um usuário do público alvo. 
-
-_Se quiser conhecer um pouco mais sobre os tipos de teste de software, leia o documento [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)._
-
 # Teste de Unidade
 
-_Nesta seção o grupo deverá documentar os testes de software que verificam a correta implementação dos requisitos funcionais e não funcionais do software. Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe quais testes unitários são responsáveis por verificar a conformidade com o caso de teste. Associe também o componente que está sendo testado. Veja a tabela de exemplo._
+
 
 
 **Caso de Teste** | **CT01 - Cadastrar usuário**
@@ -17,96 +10,116 @@ _Nesta seção o grupo deverá documentar os testes de software que verificam a 
 **Procedimento**  | Cadastrar novo usuário. |
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro. |
 **Resultado obtido** | Dado cadastrado com sucesso. |
-**Teste unitário associado** | `UsuarioTest.testNewUser()` |
+**Teste unitário associado** | `CadastroUsuarioTest.testNovoUsuario()` |
 
-**Caso de Teste** | **CT02 - Cadastrar usuário já existente**
+
+**Caso de Teste** | **CT02 - Venda de Ingresso**
  :--------------: | ------------
-**Procedimento**  | Cadastrar usuário já existente.
-**Dados de entrada** | Inserção de dados válidos com nome de usuário já existente no banco.
-**Resultado obtido** | Dado não cadastrado.
-**Teste unitário associado** | `UsuarioTest.testExistingUser()` |
+**Procedimento**  | Realizar a venda de um ingresso.|
+**Dados de entrada** | Selecionar um evento e listar o ingresso.|
+**Resultado obtido** | A venda é concluída com sucesso, e os ingressos são associados ao usuário.|
+**Teste unitário associado** | `VendaIngressoTest.testRealizarVenda()` |
+
+
+**Caso de Teste** | **CT03 - Avaliação de Usuário**
+ :--------------: | ------------
+**Procedimento**  | Avaliar outro usuário no sistema.|
+**Dados de entrada** | Selecionar um usuário para avaliação e atribuir uma pontuação e comentário.|
+**Resultado obtido** | A avaliação é registrada com sucesso no perfil do usuário avaliado.|
+**Teste unitário associado** | `AvaliacaoUsuarioTest.testAvaliarUsuario()` |
+
+
+**Caso de Teste** | **CT04 - Compra de Ingresso**
+ :--------------: | ------------
+**Procedimento**  | Comprar ingressos para um evento existente.|
+**Dados de entrada** | Selecionar um evento e informações de pagamento válidas.|
+**Resultado obtido** |  A compra é concluída com sucesso, e os ingressos são associados ao usuário|
+**Teste unitário associado** | `CompraIngressoTest.testRealizarCompra()` |
+
+
+
+**Caso de Teste** | **CT05 - Validar Pagamentos**
+ :--------------: | ------------
+**Procedimento**  | Validar Pagamentos |
+**Dados de entrada** | Forma de pagamento do ususário |
+**Resultado obtido** | Validação do pagamento do usuário |
+**Teste unitário associado** | `ValidarPagamentoTest.testRealizaValidacaoPagamento()` |
+
+**Caso de Teste** | **CT06 - Validar Pagamentos**
+ :--------------: | ------------
+**Procedimento**  | Denunciar a conduta inadequada de um usuário no sistema. |
+**Dados de entrada** | Selecionar o usuário a ser denunciado e fornecer detalhes da denúncia. |
+**Resultado obtido** | A denúncia é registrada com sucesso, e o sistema toma as medidas apropriadas. |
+**Teste unitário associado** | `DenunciaUsuarioTest.testRealizaDenunciaUsuario()` |
+
+
+**Caso de Teste** | **CT07 -  Busca de Ingresso Disponível**
+ :--------------: | ------------
+**Procedimento**  | Pesquisar e visualizar ingressos disponíveis para um evento específico. |
+**Dados de entrada** | Informar o nome do evento desejado na barra de busca. |
+**Resultado obtido** | O sistema exibe corretamente os ingressos disponíveis para o evento pesquisado. |
+**Teste unitário associado** | `BuscaIngressoTest.testRealizaBuscaIngresso()` |
+
 
 
 ## Avaliação dos Testes de Unidade
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Os testes mostraram sucesso no cadastro eficiente de novos usuários e na venda de ingressos, garantindo a associação correta aos usuários. A funcionalidade de avaliação de usuários foi confirmada como eficaz, promovendo interatividade e transparência.
 
-## Testes de Unidade JavaScript (Opcional)
+Contudo, a validação do pagamento revelou a necessidade de melhorias para garantir a integridade financeira. Planeja-se introduzir testes mais abrangentes nessa área, fortalecendo a segurança e confiabilidade nas transações.
 
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele poderá desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas no front-end. Para conhecer sobre testes unitários em JavaScript, leia o documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
+Em resumo, os testes destacaram pontos positivos, identificando áreas específicas para aprimoramentos. A equipe está comprometida em fortalecer a plataforma para oferecer uma experiência robusta e confiável aos usuários.
+
+
+
 
 # Testes de Usabilidade
 
-O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à funcionalidade da aplicação de forma geral.
-
-Para tanto, elaboramos quatro cenários, cada um baseado na definição apresentada sobre as histórias dos usuários, definido na etapa das especificações do projeto.
-
-Foram convidadas quatro pessoas que os perfis se encaixassem nas definições das histórias apresentadas na documentação, visando averiguar os seguintes indicadores:
-
-Taxa de sucesso: responde se o usuário conseguiu ou não executar a tarefa proposta;
-
-Satisfação subjetiva: responde como o usuário avalia o sistema com relação à execução da tarefa proposta, conforme a seguinte escala:
-
-1. Péssimo; 
-2. Ruim; 
-3. Regular; 
-4. Bom; 
-5. Ótimo.
-
-Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo utilizado quando um especialista (um desenvolvedor) realiza a mesma tarefa.
-
-Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
 
 
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
-
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
 
 
 ## Cenários de Teste de Usabilidade
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que o está anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphones nessa faixa de preço. |
+| 1             | Você é uma pessoa que deseja omprar ingresso para um evento. |
+| 2             | Você é uma pessoa que deseja vender ingresso para um evento. |
 
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que o está anunciando.
+Cenário 1: Você é uma pessoa que deseja omprar ingresso para um evento.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    |  25.32 segundos                  |
+| 2       | SIM             | 5                    | 22.11 segundos                  |
+| 3       | SIM             | 5                    | 30.45 segundos                  |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 12.34 segundos |
 
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+Comentários dos usuários: Experiência intuitiva. Não tive dificuldades e acho que ficou bem intuitivo.
 
 
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphones nessa faixa de preço.
+Cenário 2:  Você é uma pessoa que deseja vender ingresso para um evento.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 18.76 segundos                          |
+| 2       | SIM             | 5                    | 27.89 segundos                          |
+| 3       | SIM             | 5                    | 21.45 segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 2.34s segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+ Comentários dos usuários: Facilidade no processo, site bem intuitivo e facil de usar, mas poderia apresentar opções mais personalizadas .
 
 
 
@@ -114,13 +127,10 @@ Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,0
 ## Avaliação dos Testes de Usabilidade
 
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Os resultados dos testes indicaram sucesso na taxa de sucesso e satisfação dos usuários em ambos os cenários avaliados. Os participantes elogiaram a experiência intuitiva, destacando a facilidade na busca, compra e venda de ingressos.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+A discrepância nos tempos de conclusão entre usuários e especialista foi identificada, indicando possíveis áreas de otimização na usabilidade. As sugestões dos usuários para melhorias, como opções de personalização adicionais, são valiosas para aprimorar a plataforma.
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
+Em resumo, os testes de usabilidade destacaram aspectos positivos, mas também apontaram para oportunidades de otimização. Essas descobertas fornecem insights valiosos para refinamentos futuros na interface do site, visando uma experiência de usuário ainda mais eficiente e satisfatória.
 
 
