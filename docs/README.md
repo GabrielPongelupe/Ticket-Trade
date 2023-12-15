@@ -182,7 +182,7 @@ _Atualizar os links e adicionar novos links para que a estrutura do código este
 ## Apêndice B - Apresentação final
 
 
-[Slides da apresentação final](presentations/arquivo.pdf)
+[Slides da apresentação final](presentations/slide.pptx)
 
 
 [Vídeo da apresentação final](video/arquivo.mp4)
