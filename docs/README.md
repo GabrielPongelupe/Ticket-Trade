@@ -169,7 +169,7 @@ Finalmente, o desenvolvimento contribuiu de forma significativa para a aplicaça
 # APÊNDICES
 
 
-_Atualizar os links e adicionar novos links para que a estrutura do código esteja corretamente documentada._
+
 
 
 ## Apêndice A - Código fonte
