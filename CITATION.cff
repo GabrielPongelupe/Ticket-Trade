@@ -1,8 +1,7 @@
-# YAML 1.2
 ---
-authors: 
-  - family-names: Salim 
-    given-names: Joao Victor 
+authors:
+  - family-names: Salim
+    given-names: Joao Victor
   - family-names: Pongelupe
     given-names: Gabriel
   - family-names: Faria
@@ -11,7 +10,6 @@ authors:
     given-names: Joao Vitor
   - family-names: Cazzoletti
     given-names: Renato
-    
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: De Paula
@@ -23,26 +21,17 @@ authors:
   - name-suffix: Professor
     affiliation: PUC Minas
     family-names: Baroni de Carvalho
-    given-names: Juliana Amaral 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: Seufitelli
-    given-names: Danilo Boechat
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: Silva
-    given-names: Luiz Henrique da Costa
+    given-names: Juliana Amaral
+cff-version: 1.1.0
+keywords:
+  - Modelagem de Processos de Negócios
+  - Banco de Dados
+  - Backend e Frontend
+  - Ingresso
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade
+title: TicketTrade
+abstract: >
+  O projeto TicketTrade se baseia no desenvolvimento de um software
+  funcional com o objetivo de 
 
-cff-version: "1.1.0"
-keywords: 
-  - "Modelagem de Processos de Negócios"
-  - "Banco de Dados"
-  - "Backend e Frontend"
-  - "Ingresso"
-
-repository-code: "https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2023-2-ti2-1372100-tickettrade"
-title: "TicketTrade"
-abstract: | 
-O projeto TicketTrade se baseia no desenvolvimento de um software funcional com o objetivo de 
-facilitar a compra e revenda de ingressos para eventos de entretenimento.
-
+  facilitar a compra e revenda de ingressos para eventos de entretenimento.
